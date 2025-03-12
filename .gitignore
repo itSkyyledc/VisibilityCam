@@ -1,1 +1,3 @@
-recordings/session.mp4
+recordings/*
+api_key
+api_key.txt
