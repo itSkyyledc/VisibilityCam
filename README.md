@@ -11,12 +11,15 @@ A Streamlit-based dashboard for monitoring visibility conditions from IP cameras
 - Dark/light theme support
 - Configurable visibility thresholds
 - Automatic highlight creation for significant visibility events
+- ROI (Regions of Interest) selection for targeted monitoring
+- Multi-camera support with independent settings
 
 ## Prerequisites
 
 - Python 3.8 or higher
 - FFmpeg installed on your system
 - IP cameras with RTSP streams
+- Internet connection for weather data (OpenWeather API)
 
 ## Installation
 
@@ -37,29 +40,37 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Create a `.env` file in the project root with your configuration:
-```env
-OPENWEATHER_API_KEY=your_api_key_here
+4. Create an `api_key.txt` file in the project root with your OpenWeather API key, or set it as an environment variable:
+```
+your_openweather_api_key_here
 ```
 
 ## Configuration
 
-Edit `src/config/settings.py` to configure your cameras and other settings:
+Configure your cameras by editing the `camera_config.json` file in the project root:
 
-```python
-DEFAULT_CAMERA_CONFIG = {
-    "Camera1": {
-        "rtsp_url": "rtsp://your_camera_ip:554/stream1",
-        "weather_city": "Manila",
-        "visibility_threshold": 0.3,
-        "recovery_threshold": 0.5
-    }
+```json
+{
+  "Camera1": {
+    "rtsp_url": "rtsp://your_camera_ip:554/stream1",
+    "weather_city": "Manila",
+    "visibility_threshold": 0.3,
+    "recovery_threshold": 0.5,
+    "color_delta_threshold": 30
+  }
 }
 ```
+
+You can add multiple cameras with different configurations.
 
 ## Usage
 
 1. Start the application:
+```bash
+python -m streamlit run run.py
+```
+
+   Alternatively, you can use:
 ```bash
 streamlit run src/main.py
 ```
@@ -69,6 +80,7 @@ streamlit run src/main.py
 3. Use the sidebar to:
    - Select different cameras
    - Adjust visibility thresholds
+   - Configure ROI regions
    - Configure display settings
    - Toggle dark/light theme
 
@@ -77,30 +89,51 @@ streamlit run src/main.py
    - Check visibility analytics
    - Monitor weather conditions
    - Access recordings and highlights
-   - View historical data
+   - View historical data and trends
 
 ## Project Structure
 
 ```
 VisibilityCam/
 ├── src/
-│   ├── config/
-│   │   └── settings.py
-│   ├── core/
-│   │   ├── camera_manager.py
-│   │   └── weather_manager.py
-│   ├── database/
-│   │   └── db_manager.py
-│   ├── ui/
-│   │   └── components.py
-│   └── main.py
-├── data/
-│   ├── recordings/
-│   └── highlights/
-├── logs/
-├── requirements.txt
-└── README.md
+│   ├── config/          # Configuration management
+│   ├── core/            # Core functionality (camera and weather)
+│   ├── database/        # Database operations
+│   ├── ui/              # UI components and layout
+│   ├── utils/           # Utility functions and analytics
+│   └── main.py          # Main application entry point
+├── data/                # Data storage
+├── recordings/          # Stored video recordings
+├── highlights/          # Visibility event highlights
+├── logs/                # Application logs
+├── .streamlit/          # Streamlit configuration
+├── run.py               # Application runner
+├── requirements.txt     # Python dependencies
+└── README.md            # This file
 ```
+
+## Recordings and Highlights
+
+The application automatically records video during low visibility events. Recordings are stored in the `recordings/` directory.
+
+Highlight clips of significant visibility changes are created automatically and stored in the `highlights/` directory.
+
+## Regions of Interest (ROI)
+
+You can define specific regions of interest on the camera feed to monitor visibility in targeted areas. This is useful for monitoring specific landmarks, roads, or areas where visibility is critical.
+
+## Weather Integration
+
+The dashboard integrates with OpenWeather API to provide real-time weather data for the camera location. This helps correlate visibility conditions with weather events.
+
+## Analytics
+
+The analytics feature provides:
+
+- Historical visibility trends
+- Visibility change detection
+- Event logging and playback
+- Statistical analysis of visibility patterns
 
 ## Contributing
 
