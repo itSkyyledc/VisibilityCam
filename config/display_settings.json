@@ -1,0 +1,14 @@
+{
+    "stream_width": 640,
+    "stream_height": 480,
+    "fps": 15,
+    "buffer_size": 30,
+    "refresh_rate": 0.1,
+    "auto_refresh": true,
+    "show_fps": true,
+    "show_roi": true,
+    "show_overlay": true,
+    "latency": 5000,
+    "connection_timeout": 10,
+    "initial_load_delay": 3
+} 

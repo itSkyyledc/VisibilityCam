@@ -1,0 +1,70 @@
+2025-03-30 09:23:37,448 - V380Client - INFO - Connecting to V380 camera at 129.150.48.140:8800
+2025-03-30 09:23:37,636 - V380Client - INFO - Socket connected to 129.150.48.140:8800
+2025-03-30 09:23:40,832 - V380Client - ERROR - Authentication failed
+2025-03-30 09:23:40,832 - V380Client - ERROR - Failed to connect
+2025-03-30 09:23:40,839 - V380Client - INFO - Stopping stream
+2025-03-30 09:23:40,840 - V380Client - INFO - Disconnected from camera
+2025-03-30 09:23:40,840 - V380Client - INFO - Client stopped
+2025-03-30 09:23:45,285 - V380Client - INFO - Connecting to V380 camera at 129.150.48.140:8089
+2025-03-30 09:23:45,480 - V380Client - INFO - Socket connected to 129.150.48.140:8089
+2025-03-30 09:23:45,692 - V380Client - ERROR - Authentication failed
+2025-03-30 09:23:45,693 - V380Client - ERROR - Failed to connect
+2025-03-30 09:23:45,695 - V380Client - INFO - Stopping stream
+2025-03-30 09:23:45,695 - V380Client - INFO - Disconnected from camera
+2025-03-30 09:23:45,695 - V380Client - INFO - Client stopped
+2025-03-30 09:23:49,704 - V380Client - INFO - Connecting to V380 camera at 129.150.48.140:443
+2025-03-30 09:23:49,895 - V380Client - INFO - Socket connected to 129.150.48.140:443
+2025-03-30 09:23:56,066 - V380Client - ERROR - Authentication failed
+2025-03-30 09:23:56,067 - V380Client - ERROR - Failed to connect
+2025-03-30 09:23:56,069 - V380Client - INFO - Stopping stream
+2025-03-30 09:23:56,069 - V380Client - INFO - Disconnected from camera
+2025-03-30 09:23:56,069 - V380Client - INFO - Client stopped
+2025-03-30 09:25:30,839 - V380Client - INFO - Connecting to V380 camera at 129.150.48.140:8089
+2025-03-30 09:25:31,057 - V380Client - INFO - Socket connected to 129.150.48.140:8089
+2025-03-30 09:25:31,058 - V380Client - DEBUG - Trying authentication method: _auth_v380_protocol
+2025-03-30 09:25:31,058 - V380Client - DEBUG - Trying V380 proprietary authentication
+2025-03-30 09:25:31,059 - V380Client - DEBUG - Sent V380 auth packet: 563338300100000061646d696e3a4149...
+2025-03-30 09:25:31,273 - V380Client - DEBUG - Error during receive: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-30 09:25:31,273 - V380Client - DEBUG - Trying authentication method: _auth_binary_protocol
+2025-03-30 09:25:31,273 - V380Client - DEBUG - Trying binary protocol authentication formats
+2025-03-30 09:25:31,274 - V380Client - DEBUG - Trying binary auth format 1: 0100000000000000...
+2025-03-30 09:25:31,274 - V380Client - DEBUG - Binary auth format 1 failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-30 09:25:31,274 - V380Client - DEBUG - Trying binary auth format 2: 000100000c00000061646d696e3a4149...
+2025-03-30 09:25:31,651 - V380Client - DEBUG - Error during receive: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-30 09:25:31,651 - V380Client - DEBUG - Trying binary auth format 3: 010000000500000061646d696e090000...
+2025-03-30 09:25:32,018 - V380Client - DEBUG - Error during receive: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-30 09:25:32,019 - V380Client - DEBUG - Trying binary auth format 4: 000100001000000061646d696e3a4149...
+2025-03-30 09:25:32,409 - V380Client - DEBUG - Error during receive: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-30 09:25:32,410 - V380Client - DEBUG - Trying authentication method: _auth_http_digest
+2025-03-30 09:25:32,410 - V380Client - DEBUG - Trying HTTP digest authentication
+2025-03-30 09:25:32,410 - V380Client - DEBUG - Trying HTTP auth request 1
+2025-03-30 09:25:32,410 - V380Client - DEBUG - HTTP digest auth request 1 failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-30 09:25:32,414 - V380Client - DEBUG - Traceback (most recent call last):
+  File "C:\Users\steve\Documents\GitHub\VisibilityCam\create_v380_client.py", line 254, in _auth_http_digest
+    self.socket.send(auth_request)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+2025-03-30 09:25:32,414 - V380Client - DEBUG - Trying HTTP auth request 2
+2025-03-30 09:25:32,796 - V380Client - DEBUG - Error during receive: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-30 09:25:32,797 - V380Client - DEBUG - Trying HTTP auth request 3
+2025-03-30 09:25:33,204 - V380Client - DEBUG - Error during receive: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-30 09:25:33,204 - V380Client - DEBUG - Trying authentication method: _auth_simple_credentials
+2025-03-30 09:25:33,205 - V380Client - DEBUG - Trying simple credential authentication
+2025-03-30 09:25:33,205 - V380Client - DEBUG - Trying simple auth format 1: {"username":"admin","password":"AIC_admin"}
+2025-03-30 09:25:33,205 - V380Client - DEBUG - Simple auth format 1 failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-30 09:25:33,206 - V380Client - DEBUG - Traceback (most recent call last):
+  File "C:\Users\steve\Documents\GitHub\VisibilityCam\create_v380_client.py", line 326, in _auth_simple_credentials
+    self.socket.send(auth_packet)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+2025-03-30 09:25:33,207 - V380Client - DEBUG - Trying simple auth format 2: admin:AIC_admin
+2025-03-30 09:25:33,573 - V380Client - DEBUG - Error during receive: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-30 09:25:33,573 - V380Client - DEBUG - Trying simple auth format 3: username=admin&password=AIC_admin
+2025-03-30 09:25:33,979 - V380Client - DEBUG - Error during receive: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-03-30 09:25:33,980 - V380Client - ERROR - Authentication failed
+2025-03-30 09:25:33,980 - V380Client - ERROR - Failed to connect
+2025-03-30 09:25:33,983 - V380Client - INFO - Stopping stream
+2025-03-30 09:25:33,983 - V380Client - INFO - Disconnected from camera
+2025-03-30 09:25:33,983 - V380Client - INFO - Client stopped

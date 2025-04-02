@@ -1,0 +1,8 @@
+{
+  "camera_ip": "129.150.48.140",
+  "port": 8089,
+  "protocol": "http",
+  "successful_endpoints": [],
+  "total_successful": 0,
+  "total_tested": 330
+}

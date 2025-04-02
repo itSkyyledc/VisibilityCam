@@ -1,0 +1,43 @@
+{
+    "Manila_Observatory": {
+        "name": "Manila Observatory",
+        "rtsp_url": "rtsp://buth:4ytkfe@192.168.1.210/live/ch00_1",
+        "location": "Manila Observatory",
+        "weather_city": "Quezon City",
+        "visibility_threshold": 80,
+        "recovery_threshold": 100
+    },
+    "AIC": {
+        "name": "AIC",
+        "rtsp_url": "rtsp://buth:4ytkfe@192.168.1.210/live/ch00_1",
+        "location": "AIC",
+        "weather_city": "Baguio City",
+        "visibility_threshold": 80,
+        "recovery_threshold": 100
+    },
+    "AIC Camera": {
+        "name": "AIC Camera",
+        "url": "rtsp://buth:4ytkfe@192.168.1.210/live/ch00_1",
+        "type": "rtsp",
+        "location": "Manila,PH",
+        "roi_regions": [
+            {
+                "name": "Road",
+                "x": 50,
+                "y": 250,
+                "width": 200,
+                "height": 150
+            },
+            {
+                "name": "Sky",
+                "x": 300,
+                "y": 50,
+                "width": 150,
+                "height": 100
+            }
+        ],
+        "color_delta_threshold": 10.0,
+        "visibility_threshold": 40,
+        "recovery_threshold": 60
+    }
+}

@@ -5,8 +5,11 @@ import numpy as np
 from collections import deque
 
 # RTSP Stream URL (Replace with correct login details)
-RTSP_URL = "rtsp://buth:4ytkfe@192.168.1.210/live/ch00_1"
-
+RTSP_URL ="rtsp://buth:4ytkfe@192.168.1.210/live/ch00_1" 
+#"rtsp://ECCEF324-thesis:ilovemyproject@192.168.1.118:554/stream1"
+#rtsp://username:password@ip_address/live/ch00_1
+# 100.112.240.104 
+#rtsp://ECCEF324-thesis:ilovemyproject@192.168.1.118/live/ch00_1
 # Video Parameters
 FRAME_WIDTH, FRAME_HEIGHT = 1280, 720
 FPS = 20

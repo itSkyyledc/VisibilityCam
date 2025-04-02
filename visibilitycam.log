@@ -1,0 +1,1597 @@
+2025-04-03 04:07:43,084 - src.utils.config - INFO - Config file config\config.json not found, creating default
+2025-04-03 04:07:43,085 - src.utils.config - INFO - Saved config to config\config.json
+2025-04-03 04:07:43,086 - src.ui.app - INFO - Config loaded
+2025-04-03 04:07:43,086 - src.ui.app - INFO - Initializing camera: default_camera
+2025-04-03 04:07:43,088 - src.ui.app - INFO - Initialized 1 cameras
+2025-04-03 04:07:43,893 - src.core.camera_manager - INFO - Started capture thread for camera default_camera
+2025-04-03 04:07:43,893 - src.core.camera_manager - INFO - Successfully connected to camera default_camera
+2025-04-03 04:07:43,904 - src.ui.app - INFO - Successfully connected to camera default_camera
+2025-04-03 04:08:08,256 - src.utils.config - INFO - Loaded config from config\config.json
+2025-04-03 04:08:08,256 - src.ui.app - INFO - Config loaded
+2025-04-03 04:08:08,256 - src.ui.app - INFO - Initializing camera: default_camera
+2025-04-03 04:08:08,257 - src.ui.app - INFO - Initialized 1 cameras
+2025-04-03 04:08:09,061 - src.core.camera_manager - INFO - Started capture thread for camera default_camera
+2025-04-03 04:08:09,062 - src.core.camera_manager - INFO - Successfully connected to camera default_camera
+2025-04-03 04:08:09,062 - src.ui.app - INFO - Successfully connected to camera default_camera
+2025-04-03 04:12:47,637 - src.utils.config - INFO - Loading settings from C:\Users\steve\Documents\GitHub\VisibilityCam\src\config\settings.py
+2025-04-03 04:12:47,639 - src.utils.config - INFO - Found 3 cameras in settings.py
+2025-04-03 04:12:47,640 - src.ui.app - INFO - Config loaded
+2025-04-03 04:12:47,640 - src.ui.app - INFO - Initializing camera: CTC Rooftop
+2025-04-03 04:12:47,641 - src.ui.app - INFO - Initializing camera: AIC Camera
+2025-04-03 04:12:47,642 - src.ui.app - INFO - Initializing camera: V380 Camera
+2025-04-03 04:12:47,644 - src.ui.app - INFO - Initialized 3 cameras
+2025-04-03 04:13:11,010 - src.core.camera_manager - INFO - Started capture thread for camera CTC Rooftop
+2025-04-03 04:13:11,010 - src.core.camera_manager - INFO - Successfully connected to camera CTC Rooftop
+2025-04-03 04:13:11,010 - src.ui.app - INFO - Successfully connected to camera CTC Rooftop
+2025-04-03 04:16:15,589 - src.core.camera_manager - INFO - Started capture thread for camera CTC Rooftop
+2025-04-03 04:16:15,590 - src.core.camera_manager - INFO - Successfully connected to camera CTC Rooftop
+2025-04-03 04:16:15,590 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 04:16:15,591 - src.core.weather_manager - ERROR - Error in get_weather: 'WeatherManager' object has no attribute 'base_url'
+2025-04-03 04:16:15,591 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:16:15,618 - VisibilityCam - ERROR - Error in main application: 'str' object has no attribute 'recordings_dir'
+2025-04-03 04:21:34,837 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:22:04,955 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 04:22:04,956 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 04:22:04,957 - src.core.weather_manager - ERROR - Error in get_weather: 'WeatherManager' object has no attribute 'base_url'
+2025-04-03 04:22:04,957 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:22:35,049 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 04:22:36,849 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 04:22:37,359 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 04:22:39,800 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 04:22:40,333 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:22:40,343 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:22:40,356 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:22:40,356 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:23:10,919 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:23:10,933 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:23:10,950 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:23:10,951 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:23:38,895 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:23:38,907 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:23:38,920 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:23:38,921 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:23:43,996 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:23:44,009 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:23:44,025 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:23:44,025 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:24:00,503 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:24:00,514 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:24:00,526 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:24:00,528 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:24:07,398 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:24:07,409 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:24:07,421 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:24:07,421 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:24:12,432 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:24:12,444 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:24:12,455 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:24:12,456 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:24:19,760 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:24:19,776 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:24:19,788 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:24:19,789 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:24:34,891 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:24:34,902 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:24:34,914 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:24:34,915 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:24:40,653 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:24:40,666 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:24:40,678 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:24:40,679 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:26:16,529 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:26:31,294 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:26:46,675 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 04:26:46,677 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 04:26:46,907 - src.core.weather_manager - ERROR - Error fetching weather data: 401 - {"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+2025-04-03 04:26:46,908 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:26:59,986 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 04:27:08,263 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 04:27:08,264 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 04:27:08,400 - src.core.weather_manager - ERROR - Error fetching weather data: 401 - {"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+2025-04-03 04:27:08,401 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:27:08,784 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 04:27:10,155 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 04:27:10,688 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 04:27:10,788 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-03 04:27:10,789 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 04:27:10,790 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 04:27:11,305 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 04:27:13,432 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 04:27:13,982 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:27:13,997 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:27:14,009 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:27:14,009 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:27:16,145 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 04:27:16,694 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:27:16,708 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:27:16,709 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:27:19,045 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:27:19,059 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:27:19,072 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:27:19,072 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:27:21,727 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:27:21,738 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:27:21,739 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:27:24,154 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:27:24,166 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:27:24,183 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:27:24,183 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:27:26,786 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:27:26,812 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:27:26,813 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:30:17,530 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:30:47,581 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 04:30:47,582 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 04:30:47,707 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 04:30:47,709 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:30:57,316 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:31:11,378 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:31:17,839 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 04:31:27,399 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 04:31:27,399 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 04:31:27,401 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 04:31:38,428 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 04:31:38,428 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 04:31:38,429 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 04:31:40,220 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 04:31:40,729 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 04:31:43,162 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 04:31:43,687 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:31:43,697 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:31:43,707 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:31:43,707 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:31:53,563 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:32:12,239 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 04:32:12,239 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 04:32:12,240 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 04:32:12,241 - VisibilityCam - ERROR - Error during camera change: CameraManager.set_roi_regions() got an unexpected keyword argument 'normalized'
+2025-04-03 04:32:12,244 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 04:32:12,419 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:32:14,508 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 04:32:21,981 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 04:32:21,982 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 04:32:21,983 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 04:32:21,998 - VisibilityCam - ERROR - Error during camera change: CameraManager.set_roi_regions() got an unexpected keyword argument 'normalized'
+2025-04-03 04:32:22,003 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 04:32:22,006 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 04:32:22,008 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 04:32:22,009 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 04:32:22,018 - VisibilityCam - ERROR - Error during camera change: CameraManager.set_roi_regions() got an unexpected keyword argument 'normalized'
+2025-04-03 04:32:22,036 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 04:32:22,106 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:32:30,987 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:32:39,685 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 04:32:53,477 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 04:32:53,477 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 04:32:53,478 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 04:33:00,794 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 04:33:00,794 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 04:33:00,795 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 04:33:08,626 - src.core.camera_manager - INFO - Attempting to reconnect camera CTC Rooftop
+2025-04-03 04:33:08,626 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 04:33:08,626 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 04:33:10,627 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:33:40,608 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 04:33:40,618 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 04:33:40,819 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 04:33:40,820 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:33:41,178 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 04:33:42,942 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 04:33:43,456 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 04:33:45,883 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 04:33:46,437 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:33:46,445 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:33:46,455 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:33:46,456 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:01,605 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:34:01,613 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:34:01,622 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:34:01,622 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:14,883 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:34:14,992 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:34:15,003 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:34:15,003 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:20,378 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:34:20,388 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:34:20,399 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:34:20,399 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:26,221 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:34:26,230 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:34:26,242 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:34:26,243 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:35,255 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:34:35,265 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:34:35,275 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:34:35,276 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:40,764 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:34:40,773 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:34:40,786 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:34:40,787 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:47,317 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:34:47,327 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:34:47,339 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:34:47,340 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:54,412 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:35:01,611 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:35:12,804 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 04:35:12,805 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 04:35:12,805 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 04:35:12,806 - VisibilityCam - ERROR - Error during camera change: CameraManager.set_roi_regions() got an unexpected keyword argument 'normalized'
+2025-04-03 04:35:12,810 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 04:35:12,983 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:35:24,421 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 04:35:24,421 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 04:35:24,422 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 04:35:38,478 - src.core.camera_manager - INFO - Disconnecting camera V380 Camera
+2025-04-03 04:35:38,479 - src.core.camera_manager - INFO - Camera V380 Camera disconnected
+2025-04-03 04:35:38,479 - VisibilityCam - INFO - Disconnected previous camera: V380 Camera
+2025-04-03 04:35:38,480 - VisibilityCam - ERROR - Error during camera change: CameraManager.set_roi_regions() got an unexpected keyword argument 'normalized'
+2025-04-03 04:35:38,483 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 04:35:38,504 - src.core.camera_manager - INFO - Attempting to reconnect camera V380 Camera
+2025-04-03 04:35:38,504 - src.core.camera_manager - INFO - Disconnecting camera V380 Camera
+2025-04-03 04:35:38,505 - src.core.camera_manager - INFO - Camera V380 Camera disconnected
+2025-04-03 04:35:40,506 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 04:35:54,431 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 04:36:04,072 - src.core.camera_manager - INFO - Disconnecting camera V380 Camera
+2025-04-03 04:36:04,073 - src.core.camera_manager - INFO - Camera V380 Camera disconnected
+2025-04-03 04:36:04,074 - VisibilityCam - INFO - Disconnected previous camera: V380 Camera
+2025-04-03 04:36:04,074 - VisibilityCam - ERROR - Error during camera change: CameraManager.set_roi_regions() got an unexpected keyword argument 'normalized'
+2025-04-03 04:36:04,077 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 04:36:04,208 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:36:24,455 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 04:36:27,040 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 04:37:51,646 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:38:17,340 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 04:38:17,341 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 04:38:17,578 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 04:38:17,578 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:38:18,065 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 04:38:19,824 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 04:38:20,333 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 04:38:22,901 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 04:38:23,438 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:38:23,446 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:38:23,457 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:38:23,457 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:38:28,483 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:38:28,494 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:38:28,505 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:38:28,505 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:38:45,444 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:38:45,453 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:38:45,461 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:38:45,461 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:39:16,141 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:39:16,151 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:39:16,161 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:39:16,162 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:39:21,600 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:39:21,609 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:39:21,618 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:39:21,619 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:39:51,954 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:39:51,965 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:39:51,978 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:39:51,978 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:40:22,401 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:40:22,411 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:40:22,421 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:40:22,421 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:40:31,703 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:40:31,712 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:40:31,722 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:40:31,722 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:41:03,329 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:41:03,337 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:41:03,347 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:41:03,347 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:41:33,717 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:41:33,734 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:41:33,748 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:41:33,748 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:42:08,472 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:42:08,482 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:42:08,490 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:42:08,492 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:57:06,267 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 04:57:20,372 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 04:57:20,372 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 04:57:20,570 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 04:57:20,571 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:57:21,158 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 04:57:22,985 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 04:57:23,493 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 04:57:26,060 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 04:57:26,596 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:57:26,606 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:57:26,615 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:57:26,615 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:57:31,730 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:57:31,739 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:57:31,749 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:57:31,749 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:57:36,932 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:57:36,951 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:57:37,004 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:57:37,007 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:57:42,815 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:57:43,449 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:57:44,269 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:57:44,269 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:57:47,735 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:57:48,467 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:57:48,752 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:57:48,752 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:57:52,274 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:57:52,284 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:57:52,295 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:57:52,295 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:57:57,286 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:57:57,295 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:57:57,304 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:57:57,305 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:58:02,412 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:58:02,420 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:58:02,431 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:58:02,431 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:58:07,656 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:58:07,667 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:58:07,678 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:58:07,678 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:58:18,350 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 04:58:18,362 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 04:58:18,371 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 04:58:18,371 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:00:23,404 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:00:33,496 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:00:33,503 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 05:00:33,742 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 05:00:33,743 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:00:34,378 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:00:36,614 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:00:37,125 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:00:39,603 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:00:40,149 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:00:40,161 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:00:40,174 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:00:40,174 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:00:45,231 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:00:45,242 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:00:45,252 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:00:45,252 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:00:50,317 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:00:50,330 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:00:50,350 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:00:50,350 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:00:51,506 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:00:55,335 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:00:55,345 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:00:55,355 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:00:55,356 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:00:56,762 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:01:09,034 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:01:09,034 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:01:09,035 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:01:12,951 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:01:12,952 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:01:12,953 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:01:16,764 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:01:18,473 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:01:18,596 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:01:19,181 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-03 05:01:19,181 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:01:19,182 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:01:19,554 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:01:26,936 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:01:26,941 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:01:28,885 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:01:29,396 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:01:32,058 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:01:32,728 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:01:32,809 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:01:32,894 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:01:32,894 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:01:36,477 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:01:44,023 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:01:44,023 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:01:44,024 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:05:49,972 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:06:20,026 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:06:20,026 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 05:06:20,250 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 05:06:20,251 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:06:36,535 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:06:38,383 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:06:38,903 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:06:41,279 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:06:41,814 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:06:41,824 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:06:41,835 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:06:41,835 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:07:14,524 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:07:14,533 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:07:14,542 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:07:14,542 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:07:19,711 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:07:19,811 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:07:19,918 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:07:19,918 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:07:21,085 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:07:21,638 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:07:21,639 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 05:07:21,640 - src.core.camera_manager - INFO - Updated ROI regions for camera CTC Rooftop: 2 regions
+2025-04-03 05:07:21,641 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:07:21,646 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 05:07:21,667 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:07:23,569 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:07:23,729 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:07:50,599 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:07:50,600 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:07:50,600 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:07:50,601 - src.core.camera_manager - INFO - Updated ROI regions for camera AIC Camera: 2 regions
+2025-04-03 05:07:50,601 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:07:50,603 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 05:07:50,617 - src.core.camera_manager - INFO - Attempting to reconnect camera AIC Camera
+2025-04-03 05:07:50,617 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:07:50,618 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:07:52,619 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:07:53,859 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:07:55,684 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:07:55,818 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:08:24,648 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:08:24,648 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:08:24,649 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:08:25,163 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:08:27,491 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:08:28,007 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:08:30,496 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:11:09,957 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:11:35,675 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:11:35,676 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 05:11:35,860 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 05:11:35,861 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:11:36,424 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:11:38,178 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:11:38,688 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:11:41,202 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:11:41,737 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:11:41,749 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:11:41,760 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:11:41,761 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:11:46,767 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:11:46,777 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:11:46,787 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:11:46,787 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:11:55,423 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:11:55,433 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:11:55,444 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:11:55,445 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:12:01,617 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:12:01,627 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:12:01,637 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:12:01,638 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:12:06,623 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:12:06,634 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:12:06,643 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:12:06,643 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:12:07,287 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:12:11,817 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:12:11,826 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:12:11,836 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:12:11,836 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:12:29,165 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:12:29,176 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:12:29,186 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:12:29,186 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:12:31,734 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:12:31,734 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:12:31,734 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:12:34,970 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:12:34,978 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:12:34,989 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:12:34,989 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:13:06,290 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:13:06,299 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:13:06,308 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:13:06,309 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:13:12,932 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:13:30,758 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:13:30,758 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:13:30,758 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:14:07,064 - VisibilityCam - INFO - Disconnecting previous camera: CTC Rooftop
+2025-04-03 05:14:07,067 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:14:07,067 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:14:07,068 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 05:14:07,068 - src.core.camera_manager - INFO - Updated ROI regions for camera CTC Rooftop: 2 regions
+2025-04-03 05:14:07,069 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:14:07,071 - VisibilityCam - ERROR - Error during camera change: st.session_state has no attribute "camera_loading_states". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2025-04-03 05:14:07,077 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 05:14:07,111 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:14:08,908 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:14:08,909 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 05:14:09,084 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 05:14:09,085 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:14:09,126 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:14:24,096 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:14:24,973 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:14:29,705 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:14:30,244 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:14:30,254 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:14:30,264 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:14:30,264 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:14:35,429 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:14:35,444 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:14:35,456 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:14:35,457 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:14:40,203 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:14:40,205 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:14:40,293 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:14:40,293 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:14:40,295 - src.core.camera_manager - INFO - Updated ROI regions for camera AIC Camera: 2 regions
+2025-04-03 05:14:40,296 - VisibilityCam - INFO - Camera changed to: V380 Camera
+2025-04-03 05:14:40,296 - VisibilityCam - INFO - Preparing to connect to camera: V380 Camera
+2025-04-03 05:14:40,299 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 05:14:40,318 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:14:41,397 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:14:41,404 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:14:41,443 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:14:41,444 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:14:42,723 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:14:45,343 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:14:45,384 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:15:00,328 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:15:00,335 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:15:00,373 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:15:00,435 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:15:11,261 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:15:23,986 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:15:23,998 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:15:24,047 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:15:24,114 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:15:34,196 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:15:37,990 - VisibilityCam - INFO - Disconnecting previous camera: V380 Camera
+2025-04-03 05:15:37,991 - src.core.camera_manager - INFO - Disconnecting camera V380 Camera
+2025-04-03 05:15:37,991 - src.core.camera_manager - INFO - Camera V380 Camera disconnected
+2025-04-03 05:15:37,993 - VisibilityCam - INFO - Disconnected previous camera: V380 Camera
+2025-04-03 05:15:37,994 - src.core.camera_manager - INFO - Updated ROI regions for camera V380 Camera: 2 regions
+2025-04-03 05:15:37,994 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:15:37,996 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:15:37,998 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 05:15:38,014 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:15:39,551 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:15:39,552 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:15:39,553 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:15:45,492 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:15:45,492 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:15:45,493 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:15:47,772 - VisibilityCam - INFO - Disconnecting previous camera: CTC Rooftop
+2025-04-03 05:15:47,774 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:15:47,774 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:15:47,774 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 05:15:47,775 - src.core.camera_manager - INFO - Updated ROI regions for camera CTC Rooftop: 2 regions
+2025-04-03 05:15:47,777 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:15:47,779 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-03 05:15:47,782 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 05:15:47,797 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:15:48,230 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:15:48,231 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:15:48,231 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:15:48,232 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:15:48,232 - src.core.camera_manager - INFO - Updated ROI regions for camera AIC Camera: 2 regions
+2025-04-03 05:15:48,233 - VisibilityCam - INFO - Camera changed to: V380 Camera
+2025-04-03 05:15:48,235 - VisibilityCam - INFO - Preparing to connect to camera: V380 Camera
+2025-04-03 05:15:48,239 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 05:15:48,240 - src.core.camera_manager - INFO - Attempting to reconnect camera V380 Camera
+2025-04-03 05:15:48,240 - src.core.camera_manager - INFO - Disconnecting camera V380 Camera
+2025-04-03 05:15:48,242 - src.core.camera_manager - INFO - Camera V380 Camera disconnected
+2025-04-03 05:15:48,247 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:15:48,248 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:15:48,248 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:15:50,242 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:15:51,113 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:15:51,114 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:15:51,114 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:15:53,287 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:15:56,872 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:15:56,923 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:16:26,875 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:16:47,135 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:16:47,644 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:16:49,527 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:16:50,606 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:16:50,614 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:16:50,624 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:16:50,624 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:16:55,612 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:16:55,622 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:16:55,633 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:16:55,634 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:17:00,746 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:17:00,756 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:17:00,765 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:17:00,766 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:17:05,757 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:17:05,768 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:17:05,776 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:17:05,778 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:17:07,060 - VisibilityCam - INFO - Disconnecting previous camera: V380 Camera
+2025-04-03 05:17:07,061 - src.core.camera_manager - INFO - Disconnecting camera V380 Camera
+2025-04-03 05:17:07,062 - src.core.camera_manager - INFO - Camera V380 Camera disconnected
+2025-04-03 05:17:07,062 - VisibilityCam - INFO - Disconnected previous camera: V380 Camera
+2025-04-03 05:17:07,063 - src.core.camera_manager - INFO - Updated ROI regions for camera V380 Camera: 2 regions
+2025-04-03 05:17:07,064 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:17:07,066 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-03 05:17:07,070 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 05:17:07,144 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:17:07,725 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-03 05:17:07,726 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:17:07,727 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:17:09,526 - src.core.camera_manager - INFO - Attempting to reconnect camera AIC Camera
+2025-04-03 05:17:09,527 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:17:09,527 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:17:11,528 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:17:13,405 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:17:13,450 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:17:22,806 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:17:22,807 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:17:22,808 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:17:22,808 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:17:22,810 - src.core.camera_manager - INFO - Updated ROI regions for camera AIC Camera: 2 regions
+2025-04-03 05:17:22,810 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:17:22,811 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:17:22,813 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 05:17:22,825 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:17:22,902 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:17:29,628 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:17:29,628 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:17:29,628 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:17:32,307 - src.core.camera_manager - INFO - Attempting to reconnect camera CTC Rooftop
+2025-04-03 05:17:32,309 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:17:32,309 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:17:34,311 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:18:00,227 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:18:04,363 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:18:18,191 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:18:18,191 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:18:18,192 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:18:40,628 - src.core.camera_manager - INFO - Attempting to reconnect camera CTC Rooftop
+2025-04-03 05:18:40,628 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:18:40,629 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:18:42,629 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:19:12,713 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:19:12,724 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 05:19:12,924 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 05:19:12,925 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:19:43,000 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:19:45,931 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:19:46,441 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:19:49,099 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:19:49,635 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:19:49,645 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:19:49,655 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:19:49,655 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:19:57,347 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:19:57,358 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:19:57,370 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:19:57,371 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:02,599 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:20:02,609 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:20:02,617 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:20:02,618 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:21,636 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:20:21,647 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:20:21,657 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:20:21,657 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:26,714 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:20:26,724 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:20:26,735 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:20:26,735 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:31,462 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:20:31,471 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:20:31,526 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:20:31,615 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:20:54,494 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:20:54,495 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 05:20:54,666 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 05:20:54,668 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:20:54,969 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:20:54,979 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:20:55,240 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:20:55,243 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:21:00,563 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:21:00,564 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:21:00,564 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:21:04,638 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:21:04,639 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:21:04,639 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:21:05,148 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:21:07,197 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:21:07,198 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:21:07,198 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:21:07,705 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:21:09,042 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:21:09,510 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-03 05:21:09,510 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:21:09,511 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:21:09,552 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:21:10,021 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:21:12,005 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:21:14,480 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:21:40,516 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:21:40,526 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:21:40,657 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:21:40,662 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:22:10,749 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:22:11,259 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:22:40,788 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:22:41,298 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:22:43,187 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:22:43,655 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-03 05:22:43,655 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:22:43,656 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:22:43,695 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:22:44,166 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:22:46,152 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:22:46,686 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:22:46,694 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:22:46,704 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:22:46,704 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:22:48,534 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:22:49,067 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:22:49,076 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:22:49,077 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:17,592 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:23:17,622 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:23:17,647 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:23:17,648 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:19,545 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:23:19,561 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:23:19,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:22,622 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:23:22,630 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:23:22,640 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:23:22,641 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:28,263 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:23:28,271 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:23:28,280 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:23:28,280 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:33,802 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:23:33,811 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:23:33,820 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:23:33,820 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:35,946 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:23:35,954 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:23:35,954 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:40,545 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:23:40,553 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:23:40,561 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:23:40,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:42,476 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:23:42,486 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:23:42,487 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:48,953 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:23:48,962 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:23:48,970 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:23:48,971 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:53,486 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:23:53,496 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:23:53,496 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:58,482 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:23:58,491 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:23:58,493 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:03,109 - src.core.camera_manager - INFO - Attempting to reconnect camera CTC Rooftop
+2025-04-03 05:24:03,110 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:24:03,110 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:24:05,111 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:24:18,646 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:24:18,647 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:24:18,647 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:24:18,672 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 2)
+2025-04-03 05:24:19,464 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:24:19,472 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:24:19,481 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:24:19,482 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:23,096 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:24:23,096 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:24:23,096 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:24:23,610 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:24:24,607 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:24:24,617 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:24:24,630 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:24:24,630 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:25,784 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:24:26,297 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:24:27,529 - src.core.camera_manager - INFO - Attempting to reconnect camera CTC Rooftop
+2025-04-03 05:24:27,529 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:24:27,531 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:24:28,896 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:24:29,532 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:24:29,703 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:24:29,712 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:24:29,722 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:24:29,722 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:35,726 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:24:35,735 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:24:35,743 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:24:35,744 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:36,500 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:24:36,501 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:24:36,501 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:24:36,526 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:24:38,963 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:24:51,538 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:24:51,547 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:24:51,559 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:24:51,559 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:57,821 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:24:57,834 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:24:57,849 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:24:57,849 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:25:15,912 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:25:15,922 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:25:16,043 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:25:16,046 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:25:23,942 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:25:23,943 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:25:23,943 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:25:24,452 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:25:36,390 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:25:36,391 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:25:36,391 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:25:36,903 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:25:38,771 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:25:39,282 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:25:39,293 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-03 05:25:39,294 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:25:39,294 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:25:39,807 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:25:41,804 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:25:44,762 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:25:57,073 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:25:57,084 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:25:57,253 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:25:57,272 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:26:25,888 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:26:25,898 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:26:26,053 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:26:26,055 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:26:27,377 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:26:44,558 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:26:44,572 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:26:44,694 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:26:44,697 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:26:49,659 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:27:03,115 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:27:03,124 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:27:03,288 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:27:03,288 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:27:03,349 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:27:28,897 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:27:28,900 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:27:29,197 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:27:45,017 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:27:45,018 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 05:27:45,717 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 05:27:45,718 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:27:54,041 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:27:57,697 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:27:57,697 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 05:27:57,817 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 05:27:57,817 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:27:58,530 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:28:01,264 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:28:01,264 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:28:01,265 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:28:03,469 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:28:03,980 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:28:04,041 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-03 05:28:04,041 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:28:04,041 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:28:04,550 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:28:06,589 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:28:07,109 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:28:07,120 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:07,130 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:07,130 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:09,015 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:28:09,643 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:09,654 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:09,655 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:12,427 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:28:12,437 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:12,449 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:12,449 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:14,924 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:14,935 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:14,935 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:17,745 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:28:17,761 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:17,774 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:17,775 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:20,228 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:20,242 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:20,243 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:22,752 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:28:22,764 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:22,774 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:22,774 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:25,367 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:25,382 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:25,383 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:30,376 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:30,388 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:30,388 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:35,403 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:35,413 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:35,413 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:39,181 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:28:39,193 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:39,204 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:39,205 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:40,831 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:40,842 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:40,842 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:44,201 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:28:44,217 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:44,230 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:44,232 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:46,131 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:46,142 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:46,143 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:51,163 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:51,173 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:51,174 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:51,986 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:28:51,994 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:52,004 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:52,006 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:56,996 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:28:57,004 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:28:57,013 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:28:57,013 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:01,998 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:29:02,007 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:02,016 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:02,016 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:03,308 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:03,321 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:03,322 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:07,097 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:29:07,109 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:07,120 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:07,120 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:08,658 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:08,672 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:08,673 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:13,911 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:13,920 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:13,921 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:22,239 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:29:22,252 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:22,263 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:22,263 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:22,482 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:22,495 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:22,495 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:27,516 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:29:27,525 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:27,535 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:27,536 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:27,720 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:27,729 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:27,730 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:32,842 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:29:32,852 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:32,861 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:32,861 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:33,060 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:33,070 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:33,071 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:38,081 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:29:38,090 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:38,102 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:38,102 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:38,315 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:38,329 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:38,330 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:43,176 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:29:43,207 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:43,218 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:43,219 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:43,324 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:43,340 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:43,341 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:48,135 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:29:48,145 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:48,159 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:48,159 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:48,391 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:48,403 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:48,403 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:50,986 - VisibilityCam - INFO - Disconnecting previous camera: CTC Rooftop
+2025-04-03 05:29:50,987 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:29:50,988 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:29:50,990 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 05:29:50,991 - src.core.camera_manager - INFO - Updated ROI regions for camera CTC Rooftop: 2 regions
+2025-04-03 05:29:50,992 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:29:51,014 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-03 05:29:51,017 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 05:29:51,031 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:29:52,886 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:29:53,244 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:29:53,418 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:29:53,425 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:53,435 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:53,435 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:58,489 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:29:58,498 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:29:58,507 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:29:58,507 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:01,549 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:30:01,549 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:30:01,550 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:30:02,531 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:30:03,935 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:03,946 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:03,959 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:30:03,959 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:05,012 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:30:05,575 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:05,589 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:05,590 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:08,998 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:09,024 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:09,035 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:30:09,035 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:10,913 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:10,926 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:10,927 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:13,980 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:13,990 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:14,001 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:30:14,001 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:15,935 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:15,952 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:15,953 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:19,271 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:19,281 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:19,292 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:30:19,292 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:21,334 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:21,347 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:21,347 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:24,319 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:24,342 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:24,351 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:30:24,351 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:26,602 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:26,615 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:26,615 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:29,547 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:29,558 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:29,570 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:30:29,570 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:31,918 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:31,935 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:31,936 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:34,800 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:34,824 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:34,855 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:30:34,855 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:37,083 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:37,093 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:37,093 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:40,038 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:40,050 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:40,061 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:30:40,062 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:42,410 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:42,420 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:42,421 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:45,131 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:45,217 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:45,282 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:30:45,284 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:47,749 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:47,840 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:47,840 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:50,356 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:50,445 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:50,523 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:30:50,523 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:52,928 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:52,987 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:52,988 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:55,535 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:55,599 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:55,668 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:30:55,668 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:58,180 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:30:58,190 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:30:58,191 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:00,815 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:31:00,825 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:31:00,836 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:31:00,837 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:03,191 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:31:03,330 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:31:03,331 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:05,829 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:31:05,839 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:31:05,849 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:31:05,849 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:08,467 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:31:08,477 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:31:08,477 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:10,921 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:31:10,936 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:31:10,953 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:31:10,953 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:13,797 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:31:13,808 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:31:13,809 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:15,962 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:31:16,018 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:31:16,049 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:31:16,050 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:18,876 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:31:18,886 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:31:18,886 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:21,121 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:31:21,135 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:31:21,149 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:31:21,150 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:22,074 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:31:22,085 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:31:22,265 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:31:22,357 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:31:22,358 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:31:39,594 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:31:39,602 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:31:39,666 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:31:39,734 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:31:39,736 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:31:46,593 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:31:51,120 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:31:51,121 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:31:51,121 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:31:52,194 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:31:52,194 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:31:52,195 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:31:53,429 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:31:53,429 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:31:53,429 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:31:53,986 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:31:53,999 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:31:54,093 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:31:54,193 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:31:54,203 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:31:58,413 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:32:03,678 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:32:03,679 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:32:03,679 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:32:04,783 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:32:04,783 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:32:04,783 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:32:05,291 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:32:06,386 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:32:06,387 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:32:06,387 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:32:13,613 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:32:14,125 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:32:15,816 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:32:16,333 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:32:16,370 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-03 05:32:16,371 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:32:16,372 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:32:16,882 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:32:18,911 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:32:21,336 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:32:27,279 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:32:27,291 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:32:27,453 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:32:27,492 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:32:27,501 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:32:29,371 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:32:29,371 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:32:29,372 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:32:30,983 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:32:30,983 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:32:30,984 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:32:31,493 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:32:32,163 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:32:32,163 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:32:32,164 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:32:32,674 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:32:32,798 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-03 05:32:32,798 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:32:32,798 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:32:33,306 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:32:33,431 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-03 05:32:33,431 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:32:33,431 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:32:33,942 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:32:34,072 - src.core.camera_manager - ERROR - Error connecting to camera V380 Camera: Failed to open camera stream
+2025-04-03 05:32:34,072 - src.core.camera_manager - INFO - Disconnecting camera V380 Camera
+2025-04-03 05:32:34,073 - src.core.camera_manager - INFO - Camera V380 Camera disconnected
+2025-04-03 05:32:34,763 - src.core.camera_manager - ERROR - Error connecting to camera V380 Camera: Failed to open camera stream
+2025-04-03 05:32:34,763 - src.core.camera_manager - INFO - Disconnecting camera V380 Camera
+2025-04-03 05:32:34,764 - src.core.camera_manager - INFO - Camera V380 Camera disconnected
+2025-04-03 05:32:57,287 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-03 05:32:57,566 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-03 05:32:57,605 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:32:57,647 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:32:57,648 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:33:27,632 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:33:27,633 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 05:33:27,818 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 05:33:27,819 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:33:51,046 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:33:51,555 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:33:56,450 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:33:56,450 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:33:56,452 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:33:56,942 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:33:56,965 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:33:58,413 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:33:58,904 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-03 05:33:58,904 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:33:58,905 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:33:58,924 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:33:59,413 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:33:59,880 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-03 05:33:59,881 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:33:59,882 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:34:00,392 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:34:02,301 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:34:02,836 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:34:02,844 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:02,853 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:02,853 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:04,789 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:34:05,347 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:05,355 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:05,355 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:05,455 - src.core.camera_manager - ERROR - Error connecting to camera V380 Camera: Failed to open camera stream
+2025-04-03 05:34:05,455 - src.core.camera_manager - INFO - Disconnecting camera V380 Camera
+2025-04-03 05:34:05,456 - src.core.camera_manager - INFO - Camera V380 Camera disconnected
+2025-04-03 05:34:07,846 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:34:07,856 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:07,925 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:07,926 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:10,533 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:10,548 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:10,548 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:12,946 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:34:12,957 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:12,969 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:12,969 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:15,805 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:15,815 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:15,815 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:18,279 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:34:18,289 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:18,302 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:18,302 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:20,817 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:20,827 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:20,828 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:23,451 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:34:23,477 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:34:23,477 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:34:23,477 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:34:23,480 - src.core.camera_manager - INFO - Updated ROI regions for camera AIC Camera: 2 regions
+2025-04-03 05:34:23,480 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:34:23,481 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:34:23,487 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 05:34:23,506 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:34:23,557 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:34:23,570 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:23,580 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:23,580 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:26,069 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:26,081 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:26,081 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:26,712 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:34:26,713 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:34:26,714 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:34:28,846 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:34:28,858 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:28,869 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:28,870 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:31,111 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:31,143 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:31,145 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:33,990 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:34:34,000 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:34,012 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:34,013 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:36,582 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:36,595 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:36,596 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:38,543 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:34:41,717 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:34:41,727 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:34:41,727 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:53,816 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:34:53,817 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:34:53,818 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:35:03,037 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:35:03,038 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:35:03,038 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:35:03,171 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:35:20,682 - src.core.camera_manager - INFO - Camera CTC Rooftop connected successfully
+2025-04-03 05:35:20,682 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 05:35:20,882 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 05:35:20,883 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:35:22,161 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:35:31,326 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:35:31,327 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:35:31,327 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:35:33,785 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:35:33,785 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:35:33,786 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:35:35,980 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:35:36,490 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:35:40,118 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:35:40,119 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:35:40,119 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:35:42,611 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:35:43,136 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:35:43,147 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:35:43,159 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:35:43,160 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:35:48,569 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:35:48,581 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:35:48,596 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:35:48,596 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:35:53,844 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:35:53,853 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:35:53,862 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:35:53,863 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:35:59,130 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:35:59,139 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:35:59,149 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:35:59,149 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:04,262 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:36:04,273 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:36:04,291 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:36:04,292 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:04,324 - src.core.camera_manager - INFO - Attempting to reconnect camera CTC Rooftop
+2025-04-03 05:36:04,325 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:36:04,326 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:36:06,327 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:36:09,292 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:36:09,301 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:36:09,310 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:36:09,310 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:14,331 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:36:14,340 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:36:14,349 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:36:14,349 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:19,524 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:36:19,533 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:36:19,542 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:36:19,542 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:21,190 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:36:21,191 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:36:21,191 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:36:21,233 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 2)
+2025-04-03 05:36:24,546 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:36:24,558 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:36:24,568 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:36:24,570 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:26,379 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:36:26,380 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:36:26,380 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:36:29,967 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:36:29,991 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:36:30,009 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:36:30,009 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:30,393 - VisibilityCam - INFO - Disconnecting previous camera: CTC Rooftop
+2025-04-03 05:36:30,394 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:36:30,394 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:36:30,395 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 05:36:30,395 - src.core.camera_manager - INFO - Updated ROI regions for camera CTC Rooftop: 2 regions
+2025-04-03 05:36:30,396 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:36:30,396 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-03 05:36:30,399 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 05:36:30,411 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:36:32,185 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:36:32,186 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-03 05:36:32,398 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-03 05:36:32,400 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:36:32,705 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:36:34,957 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:36:34,967 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:36:34,978 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:36:34,978 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:40,203 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:36:40,212 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:36:40,221 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:36:40,221 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:45,206 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:36:45,215 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:36:45,224 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:36:45,224 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:50,219 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:36:50,229 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:36:50,236 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:36:50,237 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:55,219 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:36:55,229 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:36:55,237 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:36:55,237 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:02,805 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:37:02,805 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:37:02,805 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:37:03,641 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:37:04,318 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:37:06,136 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:37:11,328 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:37:18,020 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:37:18,554 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:37:18,797 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:37:18,797 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:23,041 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:37:23,298 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:37:23,644 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:37:23,646 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:27,913 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:37:27,924 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:37:27,933 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:37:27,933 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:36,162 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:37:36,163 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:37:36,163 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:37:39,258 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:37:39,266 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:37:39,278 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:37:39,278 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:44,275 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:37:44,283 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:37:44,293 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:37:44,293 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:45,548 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:37:45,549 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:37:45,549 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:37:46,104 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-03 05:37:48,303 - src.core.camera_manager - INFO - Camera AIC Camera connected successfully
+2025-04-03 05:37:48,853 - src.core.camera_manager - INFO - Attempting to connect to camera V380 Camera (attempt 1)
+2025-04-03 05:37:49,396 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:37:49,404 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:37:49,413 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:37:49,413 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:51,404 - src.core.camera_manager - INFO - Camera V380 Camera connected successfully
+2025-04-03 05:37:51,948 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:37:51,960 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:37:51,960 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:56,976 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:37:56,988 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:37:56,988 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:38:02,012 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:38:02,022 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:38:02,023 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:38:07,109 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:38:07,121 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:38:07,122 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:38:08,361 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:38:08,372 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:38:08,384 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:38:08,384 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:38:08,398 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:38:08,399 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-03 05:38:08,400 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-03 05:38:08,400 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:38:08,402 - src.core.camera_manager - INFO - Updated ROI regions for camera AIC Camera: 2 regions
+2025-04-03 05:38:08,402 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:38:08,403 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:38:08,406 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-03 05:38:08,422 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-03 05:38:34,899 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:38:34,908 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:38:34,916 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:38:34,916 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:38:38,435 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-03 05:38:38,436 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-03 05:38:38,436 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-03 05:38:40,134 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:38:40,142 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:38:40,151 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:38:40,152 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:38:45,189 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:38:45,197 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:38:45,206 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:38:45,208 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:18,658 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:39:18,667 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:39:18,677 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:39:18,677 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:23,651 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:39:23,659 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:39:23,668 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:39:23,668 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:28,664 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:39:28,672 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:39:28,680 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:39:28,681 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:33,681 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:39:33,690 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:39:33,698 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:39:33,698 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:38,708 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:39:38,716 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:39:38,725 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:39:38,725 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:43,734 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:39:43,743 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:39:43,752 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:39:43,753 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:48,746 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:39:48,755 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:39:48,763 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:39:48,763 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:53,850 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:39:53,859 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:39:53,867 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:39:53,867 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:59,129 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:39:59,138 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:39:59,146 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:39:59,147 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:04,156 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:40:04,164 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:40:04,174 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:40:04,174 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:09,166 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:40:09,175 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:40:09,185 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:40:09,185 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:14,430 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:40:14,439 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:40:14,451 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:40:14,451 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:19,439 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:40:19,448 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:40:19,458 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:40:19,458 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:24,700 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:40:24,709 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:40:24,719 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:40:24,719 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:29,940 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:40:29,949 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:40:29,958 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:40:29,958 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:35,165 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:40:35,174 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:40:35,183 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:40:35,183 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:40,361 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:40:40,369 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:40:40,380 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:40:40,380 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:45,405 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:40:45,413 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:40:45,422 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:40:45,422 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:50,641 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:40:50,650 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:40:50,658 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:40:50,658 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:55,866 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:40:55,876 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:40:55,884 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:40:55,886 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:41:01,115 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:41:01,124 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:41:01,133 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:41:01,133 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:41:06,361 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:41:06,370 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:41:06,380 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:41:06,380 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:41:11,466 - src.utils.analytics - INFO - Updated daily stats for camera AIC Camera
+2025-04-03 05:41:11,478 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
+2025-04-03 05:41:11,493 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
+2025-04-03 05:41:11,495 - VisibilityCam - INFO - Updated analytics for all cameras

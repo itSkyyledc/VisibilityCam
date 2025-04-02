@@ -1,0 +1,616 @@
+2025-04-03 04:14:59,405 - VisibilityCam - ERROR - Error in main application: WeatherManager.__init__() missing 1 required positional argument: 'location'
+2025-04-03 04:16:15,591 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:16:15,618 - VisibilityCam - ERROR - Error in main application: 'str' object has no attribute 'recordings_dir'
+2025-04-03 04:22:04,957 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:22:40,356 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:23:10,951 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:23:38,921 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:23:44,025 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:24:00,528 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:24:07,421 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:24:12,456 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:24:19,789 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:24:34,915 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:24:40,679 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:26:46,908 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:27:08,401 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:27:14,009 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:27:16,709 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:27:19,072 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:27:21,739 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:27:24,183 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:27:26,813 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:30:47,709 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:31:43,707 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:32:12,240 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 04:32:12,241 - VisibilityCam - ERROR - Error during camera change: CameraManager.set_roi_regions() got an unexpected keyword argument 'normalized'
+2025-04-03 04:32:21,983 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 04:32:21,998 - VisibilityCam - ERROR - Error during camera change: CameraManager.set_roi_regions() got an unexpected keyword argument 'normalized'
+2025-04-03 04:32:22,009 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 04:32:22,018 - VisibilityCam - ERROR - Error during camera change: CameraManager.set_roi_regions() got an unexpected keyword argument 'normalized'
+2025-04-03 04:33:40,820 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:33:46,456 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:01,622 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:15,003 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:20,399 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:26,243 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:35,276 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:40,787 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:34:47,340 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:35:12,805 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 04:35:12,806 - VisibilityCam - ERROR - Error during camera change: CameraManager.set_roi_regions() got an unexpected keyword argument 'normalized'
+2025-04-03 04:35:38,479 - VisibilityCam - INFO - Disconnected previous camera: V380 Camera
+2025-04-03 04:35:38,480 - VisibilityCam - ERROR - Error during camera change: CameraManager.set_roi_regions() got an unexpected keyword argument 'normalized'
+2025-04-03 04:36:04,074 - VisibilityCam - INFO - Disconnected previous camera: V380 Camera
+2025-04-03 04:36:04,074 - VisibilityCam - ERROR - Error during camera change: CameraManager.set_roi_regions() got an unexpected keyword argument 'normalized'
+2025-04-03 04:38:17,578 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:38:23,457 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:38:28,505 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:38:45,461 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:39:16,162 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:39:21,619 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:39:51,978 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:40:22,421 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:40:31,722 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:41:03,347 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:41:33,748 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:42:08,492 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:57:20,571 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 04:57:26,615 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:57:31,749 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:57:37,007 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:57:44,269 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:57:48,752 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:57:52,295 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:57:57,305 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:58:02,431 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:58:07,678 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 04:58:18,371 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:00:33,743 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:00:40,174 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:00:45,252 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:00:50,350 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:00:55,356 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:01:32,894 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:06:20,251 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:06:41,835 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:07:14,542 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:07:19,918 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:07:21,639 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 05:07:21,641 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:07:50,600 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:07:50,601 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:11:35,861 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:11:41,761 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:11:46,787 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:11:55,445 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:12:01,638 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:12:06,643 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:12:11,836 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:12:29,186 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:12:34,989 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:13:06,309 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:14:07,064 - VisibilityCam - INFO - Disconnecting previous camera: CTC Rooftop
+2025-04-03 05:14:07,068 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 05:14:07,069 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:14:07,071 - VisibilityCam - ERROR - Error during camera change: st.session_state has no attribute "camera_loading_states". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2025-04-03 05:14:09,085 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:14:30,264 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:14:35,457 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:14:40,203 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:14:40,293 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:14:40,296 - VisibilityCam - INFO - Camera changed to: V380 Camera
+2025-04-03 05:14:40,296 - VisibilityCam - INFO - Preparing to connect to camera: V380 Camera
+2025-04-03 05:15:37,990 - VisibilityCam - INFO - Disconnecting previous camera: V380 Camera
+2025-04-03 05:15:37,990 - VisibilityCam - INFO - Disconnecting previous camera: V380 Camera
+2025-04-03 05:15:37,990 - VisibilityCam - INFO - Disconnecting previous camera: V380 Camera
+2025-04-03 05:15:37,990 - VisibilityCam - INFO - Disconnecting previous camera: V380 Camera
+2025-04-03 05:15:37,993 - VisibilityCam - INFO - Disconnected previous camera: V380 Camera
+2025-04-03 05:15:37,993 - VisibilityCam - INFO - Disconnected previous camera: V380 Camera
+2025-04-03 05:15:37,993 - VisibilityCam - INFO - Disconnected previous camera: V380 Camera
+2025-04-03 05:15:37,993 - VisibilityCam - INFO - Disconnected previous camera: V380 Camera
+2025-04-03 05:15:37,994 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:15:37,994 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:15:37,994 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:15:37,994 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:15:37,996 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:15:37,996 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:15:37,996 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:15:37,996 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:15:47,772 - VisibilityCam - INFO - Disconnecting previous camera: CTC Rooftop
+2025-04-03 05:15:47,772 - VisibilityCam - INFO - Disconnecting previous camera: CTC Rooftop
+2025-04-03 05:15:47,772 - VisibilityCam - INFO - Disconnecting previous camera: CTC Rooftop
+2025-04-03 05:15:47,772 - VisibilityCam - INFO - Disconnecting previous camera: CTC Rooftop
+2025-04-03 05:15:47,774 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 05:15:47,774 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 05:15:47,774 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 05:15:47,774 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 05:15:47,777 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:15:47,777 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:15:47,777 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:15:47,777 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:15:47,779 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-03 05:15:47,779 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-03 05:15:47,779 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-03 05:15:47,779 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-03 05:15:48,230 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:15:48,230 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:15:48,230 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:15:48,230 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:15:48,232 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:15:48,232 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:15:48,232 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:15:48,232 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:15:48,233 - VisibilityCam - INFO - Camera changed to: V380 Camera
+2025-04-03 05:15:48,233 - VisibilityCam - INFO - Camera changed to: V380 Camera
+2025-04-03 05:15:48,233 - VisibilityCam - INFO - Camera changed to: V380 Camera
+2025-04-03 05:15:48,233 - VisibilityCam - INFO - Camera changed to: V380 Camera
+2025-04-03 05:15:48,235 - VisibilityCam - INFO - Preparing to connect to camera: V380 Camera
+2025-04-03 05:15:48,235 - VisibilityCam - INFO - Preparing to connect to camera: V380 Camera
+2025-04-03 05:15:48,235 - VisibilityCam - INFO - Preparing to connect to camera: V380 Camera
+2025-04-03 05:15:48,235 - VisibilityCam - INFO - Preparing to connect to camera: V380 Camera
+2025-04-03 05:16:50,624 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:16:50,624 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:16:50,624 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:16:50,624 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:16:55,634 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:16:55,634 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:16:55,634 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:16:55,634 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:17:00,766 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:17:00,766 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:17:00,766 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:17:00,766 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:17:05,778 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:17:05,778 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:17:05,778 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:17:05,778 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:17:07,060 - VisibilityCam - INFO - Disconnecting previous camera: V380 Camera
+2025-04-03 05:17:07,060 - VisibilityCam - INFO - Disconnecting previous camera: V380 Camera
+2025-04-03 05:17:07,060 - VisibilityCam - INFO - Disconnecting previous camera: V380 Camera
+2025-04-03 05:17:07,060 - VisibilityCam - INFO - Disconnecting previous camera: V380 Camera
+2025-04-03 05:17:07,062 - VisibilityCam - INFO - Disconnected previous camera: V380 Camera
+2025-04-03 05:17:07,062 - VisibilityCam - INFO - Disconnected previous camera: V380 Camera
+2025-04-03 05:17:07,062 - VisibilityCam - INFO - Disconnected previous camera: V380 Camera
+2025-04-03 05:17:07,062 - VisibilityCam - INFO - Disconnected previous camera: V380 Camera
+2025-04-03 05:17:07,064 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:17:07,064 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:17:07,064 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:17:07,064 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:17:07,066 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-03 05:17:07,066 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-03 05:17:07,066 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-03 05:17:07,066 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-03 05:17:22,806 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:17:22,806 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:17:22,806 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:17:22,806 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:17:22,808 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:17:22,808 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:17:22,808 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:17:22,808 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:17:22,810 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:17:22,810 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:17:22,810 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:17:22,810 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:17:22,811 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:17:22,811 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:17:22,811 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:17:22,811 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:19:12,925 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:19:12,925 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:19:12,925 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:19:12,925 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:19:49,655 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:19:49,655 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:19:49,655 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:19:49,655 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:19:57,371 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:19:57,371 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:19:57,371 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:19:57,371 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:02,618 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:02,618 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:02,618 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:02,618 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:21,657 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:21,657 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:21,657 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:21,657 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:26,735 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:26,735 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:26,735 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:26,735 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:20:54,668 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:20:54,668 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:20:54,668 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:20:54,668 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:20:54,668 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:22:46,704 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:22:46,704 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:22:46,704 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:22:46,704 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:22:46,704 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:22:46,704 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:22:46,704 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:22:49,077 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:22:49,077 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:22:49,077 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:22:49,077 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:22:49,077 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:22:49,077 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:22:49,077 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:17,648 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:17,648 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:17,648 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:17,648 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:17,648 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:17,648 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:17,648 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:19,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:19,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:19,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:19,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:19,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:19,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:19,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:22,641 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:22,641 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:22,641 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:22,641 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:22,641 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:22,641 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:22,641 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:28,280 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:28,280 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:28,280 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:28,280 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:28,280 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:28,280 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:28,280 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:33,820 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:33,820 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:33,820 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:33,820 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:33,820 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:33,820 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:33,820 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:35,954 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:35,954 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:35,954 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:35,954 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:35,954 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:35,954 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:35,954 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:40,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:40,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:40,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:40,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:40,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:40,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:40,562 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:42,487 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:42,487 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:42,487 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:42,487 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:42,487 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:42,487 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:42,487 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:48,971 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:48,971 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:48,971 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:48,971 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:48,971 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:48,971 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:48,971 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:53,496 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:53,496 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:53,496 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:53,496 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:53,496 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:53,496 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:53,496 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:58,493 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:58,493 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:58,493 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:58,493 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:58,493 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:58,493 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:23:58,493 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:19,482 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:19,482 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:19,482 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:19,482 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:19,482 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:19,482 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:19,482 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:24,630 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:24,630 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:24,630 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:24,630 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:24,630 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:24,630 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:24,630 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:29,722 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:29,722 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:29,722 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:29,722 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:29,722 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:29,722 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:29,722 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:35,744 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:35,744 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:35,744 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:35,744 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:35,744 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:35,744 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:35,744 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:51,559 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:51,559 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:51,559 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:51,559 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:51,559 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:51,559 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:51,559 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:57,849 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:57,849 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:57,849 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:57,849 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:57,849 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:57,849 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:24:57,849 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:27:45,718 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:27:57,817 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:28:07,130 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:09,655 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:12,449 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:14,935 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:17,775 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:20,243 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:22,774 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:25,383 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:30,388 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:35,413 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:39,205 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:40,842 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:44,232 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:46,143 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:51,174 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:52,006 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:28:57,013 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:02,016 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:03,322 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:07,120 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:08,673 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:13,921 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:22,263 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:22,495 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:27,536 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:27,730 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:32,861 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:33,071 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:38,102 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:38,330 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:43,219 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:43,341 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:48,159 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:48,403 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:50,986 - VisibilityCam - INFO - Disconnecting previous camera: CTC Rooftop
+2025-04-03 05:29:50,990 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 05:29:50,992 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:29:51,014 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-03 05:29:53,435 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:29:58,507 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:03,959 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:05,590 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:09,035 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:10,927 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:14,001 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:15,953 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:19,292 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:21,347 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:24,351 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:26,615 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:29,570 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:31,936 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:34,855 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:37,093 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:40,062 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:42,421 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:45,284 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:47,840 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:50,523 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:52,988 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:55,668 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:30:58,191 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:00,837 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:03,331 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:05,849 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:08,477 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:10,953 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:13,809 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:16,050 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:18,886 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:31:21,150 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:33:27,819 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:33:27,819 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:33:27,819 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:33:27,819 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:33:27,819 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:33:27,819 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:34:02,853 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:02,853 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:02,853 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:02,853 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:02,853 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:02,853 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:05,355 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:05,355 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:05,355 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:05,355 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:05,355 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:05,355 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:07,926 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:07,926 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:07,926 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:07,926 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:07,926 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:07,926 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:10,548 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:10,548 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:10,548 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:10,548 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:10,548 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:10,548 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:12,969 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:12,969 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:12,969 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:12,969 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:12,969 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:12,969 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:15,815 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:15,815 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:15,815 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:15,815 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:15,815 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:15,815 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:18,302 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:18,302 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:18,302 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:18,302 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:18,302 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:18,302 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:20,828 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:20,828 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:20,828 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:20,828 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:20,828 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:20,828 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:23,451 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:34:23,451 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:34:23,451 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:34:23,451 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:34:23,451 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:34:23,451 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:34:23,477 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:34:23,477 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:34:23,477 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:34:23,477 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:34:23,477 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:34:23,477 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:34:23,480 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:34:23,480 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:34:23,480 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:34:23,480 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:34:23,480 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:34:23,480 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:34:23,481 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:34:23,481 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:34:23,481 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:34:23,481 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:34:23,481 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:34:23,481 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:34:23,580 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:23,580 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:23,580 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:23,580 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:23,580 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:23,580 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:26,081 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:26,081 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:26,081 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:26,081 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:26,081 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:26,081 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:28,870 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:28,870 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:28,870 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:28,870 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:28,870 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:28,870 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:31,145 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:31,145 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:31,145 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:31,145 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:31,145 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:31,145 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:34,013 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:34,013 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:34,013 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:34,013 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:34,013 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:34,013 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:36,596 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:36,596 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:36,596 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:36,596 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:36,596 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:36,596 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:41,727 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:41,727 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:41,727 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:41,727 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:41,727 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:34:41,727 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:35:20,883 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:35:43,160 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:35:48,596 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:35:53,863 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:35:59,149 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:04,292 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:09,310 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:14,349 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:19,542 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:24,570 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:30,009 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:30,393 - VisibilityCam - INFO - Disconnecting previous camera: CTC Rooftop
+2025-04-03 05:36:30,395 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-03 05:36:30,396 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-03 05:36:30,396 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-03 05:36:32,400 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-03 05:36:34,978 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:40,221 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:45,224 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:50,237 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:36:55,237 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:18,797 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:23,646 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:27,933 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:39,278 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:44,293 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:49,413 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:51,960 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:37:56,988 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:38:02,023 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:38:07,122 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:38:08,384 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:38:08,398 - VisibilityCam - INFO - Disconnecting previous camera: AIC Camera
+2025-04-03 05:38:08,400 - VisibilityCam - INFO - Disconnected previous camera: AIC Camera
+2025-04-03 05:38:08,402 - VisibilityCam - INFO - Camera changed to: CTC Rooftop
+2025-04-03 05:38:08,403 - VisibilityCam - INFO - Preparing to connect to camera: CTC Rooftop
+2025-04-03 05:38:34,916 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:38:40,152 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:38:45,208 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:18,677 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:23,668 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:28,681 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:33,698 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:38,725 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:43,753 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:48,763 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:53,867 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:39:59,147 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:04,174 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:09,185 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:14,451 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:19,458 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:24,719 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:29,958 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:35,183 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:40,380 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:45,422 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:50,658 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:40:55,886 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:41:01,133 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:41:06,380 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-03 05:41:11,495 - VisibilityCam - INFO - Updated analytics for all cameras

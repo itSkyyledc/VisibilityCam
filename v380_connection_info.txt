@@ -1,0 +1,19 @@
+V380 App Connection Information
+----------------------------
+
+
+=== URLs ===
+
+
+=== IPs and Ports ===
+
+
+=== Protocols ===
+
+
+=== Streaming ===
+
+
+
+=== All Connection-Related Strings ===
+

@@ -1,0 +1,63 @@
+{
+    "cameras": {
+        "default_camera": {
+            "name": "Default Camera",
+            "enabled": true,
+            "device_id": 0,
+            "stream_settings": {
+                "width": 1280,
+                "height": 720,
+                "fps": 15,
+                "buffer_size": 30
+            },
+            "visibility_threshold": 40,
+            "recovery_threshold": 60,
+            "color_delta_threshold": 10.0,
+            "roi_regions": [
+                {
+                    "name": "top-left",
+                    "x": 0.1,
+                    "y": 0.1,
+                    "width": 0.2,
+                    "height": 0.2,
+                    "distance": 100
+                },
+                {
+                    "name": "top-right",
+                    "x": 0.7,
+                    "y": 0.1,
+                    "width": 0.2,
+                    "height": 0.2,
+                    "distance": 200
+                },
+                {
+                    "name": "center",
+                    "x": 0.4,
+                    "y": 0.4,
+                    "width": 0.2,
+                    "height": 0.2,
+                    "distance": 150
+                },
+                {
+                    "name": "bottom-left",
+                    "x": 0.1,
+                    "y": 0.7,
+                    "width": 0.2,
+                    "height": 0.2,
+                    "distance": 300
+                },
+                {
+                    "name": "bottom-right",
+                    "x": 0.7,
+                    "y": 0.7,
+                    "width": 0.2,
+                    "height": 0.2,
+                    "distance": 400
+                }
+            ]
+        }
+    },
+    "location": "New York",
+    "weather_api_key": "",
+    "debug": false
+}

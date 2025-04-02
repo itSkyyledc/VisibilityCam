@@ -1,0 +1,29 @@
+{
+    "Manila Observatory": {
+        "rtsp_url": "rtsp://buth:4ytkfe@192.168.1.210/live/ch00_1",
+        "location": "Main Entrance",
+        "city": "Quezon City",
+        "visibility_threshold": 80,
+        "recovery_threshold": 100,
+        "frame_width": 1280,
+        "frame_height": 720
+    },
+    "Pampanga City": {
+        "rtsp_url": "rtsp://username:password@192.168.1.211/live/ch00_1",
+        "location": "Back Gate",
+        "city": "Pampanga City",
+        "visibility_threshold": 75,
+        "recovery_threshold": 95,
+        "frame_width": 1280,
+        "frame_height": 720
+    },
+    "Baguio City": {
+        "rtsp_url": "rtsp://username:password@192.168.1.212/live/ch00_1",
+        "location": "Parking Area",
+        "city": "Baguio City",
+        "visibility_threshold": 70,
+        "recovery_threshold": 90,
+        "frame_width": 1280,
+        "frame_height": 720
+    }
+}

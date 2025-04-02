@@ -1,0 +1,113 @@
+{
+    "CTC Rooftop": {
+        "name": "CTC Rooftop",
+        "location": "Manila, Philippines",
+        "rtsp_url": "rtsp://TAPO941A:visibility@192.168.0.112:554/stream1",
+        "weather_city": "Manila",
+        "visibility_threshold": 30,
+        "recovery_threshold": 50,
+        "color_delta_threshold": 10.0,
+        "roi_regions": [
+            {
+                "name": "Building",
+                "x": 0.37,
+                "y": 0.45,
+                "width": 0.05,
+                "height": 0.05,
+                "distance": 200
+            },
+            {
+                "name": "Building2",
+                "x": 0.52,
+                "y": 0.73,
+                "width": 0.05,
+                "height": 0.05,
+                "distance": 780
+            }
+        ],
+        "stream_settings": {
+            "width": 1280,
+            "height": 720,
+            "fps": 15,
+            "buffer_size": 3,
+            "rtsp_transport": "tcp",
+            "connection_timeout": 10,
+            "retry_interval": 5,
+            "max_retries": 3
+        },
+        "roi_regions_normalized": true
+    },
+    "AIC Camera": {
+        "name": "AIC Camera",
+        "location": "Manila, Philippines",
+        "rtsp_url": "rtsp://TAPOC8EA:visibility@192.168.0.111:554/stream1",
+        "weather_city": "Manila",
+        "visibility_threshold": 30,
+        "recovery_threshold": 50,
+        "color_delta_threshold": 10.0,
+        "roi_regions": [
+            {
+                "name": "Road",
+                "x": 0.1,
+                "y": 0.6,
+                "width": 0.3,
+                "height": 0.3
+            },
+            {
+                "name": "Sky",
+                "x": 0.6,
+                "y": 0.1,
+                "width": 0.3,
+                "height": 0.2
+            }
+        ],
+        "stream_settings": {
+            "width": 1280,
+            "height": 720,
+            "fps": 15,
+            "buffer_size": 3,
+            "rtsp_transport": "tcp",
+            "connection_timeout": 10,
+            "retry_interval": 5,
+            "max_retries": 3
+        }
+    },
+    "V380 Camera": {
+        "name": "V380 Camera",
+        "location": "Manila, Philippines",
+        "camera_type": "v380",
+        "rtsp_url": "rtsp://buth:4ytkfe@192.168.0.100/live/ch00_1",
+        "weather_city": "Manila",
+        "visibility_threshold": 30,
+        "recovery_threshold": 50,
+        "color_delta_threshold": 10.0,
+        "roi_regions": [
+            {
+                "name": "Building",
+                "x": 0.37,
+                "y": 0.45,
+                "width": 0.05,
+                "height": 0.05,
+                "distance": 200
+            },
+            {
+                "name": "Building2",
+                "x": 0.52,
+                "y": 0.73,
+                "width": 0.05,
+                "height": 0.05,
+                "distance": 780
+            }
+        ],
+        "stream_settings": {
+            "width": 1280,
+            "height": 720,
+            "fps": 15,
+            "buffer_size": 3,
+            "rtsp_transport": "tcp",
+            "connection_timeout": 10,
+            "retry_interval": 5,
+            "max_retries": 3
+        }
+    }
+}
