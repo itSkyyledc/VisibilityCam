@@ -25,7 +25,7 @@ A Streamlit-based dashboard for monitoring visibility conditions from IP cameras
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/VisibilityCam.git
+git clone https://github.com/itSkyyledc/VisibilityCam.git
 cd VisibilityCam
 ```
 
