@@ -13,7 +13,7 @@ class SimpleCamera:
     
     def __init__(self, camera_id: str, config: Dict[str, Any]):
         """Initialize camera with configuration"""
-        self.camera_id = camera_id
+        self.camera_id = str(camera_id)  # Ensure camera_id is a string
         self.config = config
         self.cap = None
         self.is_connected = False
@@ -26,6 +26,24 @@ class SimpleCamera:
         # Get stream settings from config
         self.stream_settings = config.get('stream_settings', {})
         self.rtsp_url = config.get('rtsp_url')
+        
+        # Setup recording directories
+        try:
+            # Try to import from settings
+            from ..config.settings import RECORDINGS_DIR, HIGHLIGHTS_DIR
+            self.recordings_dir = RECORDINGS_DIR / self.camera_id
+            self.highlights_dir = HIGHLIGHTS_DIR / self.camera_id
+            
+            # Ensure directories exist
+            self.recordings_dir.mkdir(parents=True, exist_ok=True)
+            self.highlights_dir.mkdir(parents=True, exist_ok=True)
+        except Exception as e:
+            # Fallback to local directories
+            logger.warning(f"Error setting up directories from settings: {str(e)}")
+            self.recordings_dir = Path(f"recordings/{self.camera_id}")
+            self.highlights_dir = Path(f"highlights/{self.camera_id}")
+            self.recordings_dir.mkdir(parents=True, exist_ok=True)
+            self.highlights_dir.mkdir(parents=True, exist_ok=True)
         
         if not self.rtsp_url:
             raise ValueError(f"No RTSP URL provided for camera {camera_id}")

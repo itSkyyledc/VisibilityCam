@@ -3,11 +3,22 @@ import logging
 import streamlit as st
 import time
 from datetime import datetime
+import json
+import pandas as pd
+import plotly.graph_objects as go
+import numpy as np
+import cv2
+import threading
 
 from src.core.camera_manager import CameraManager
 from src.ui.components import UIComponents
 from src.utils.config import load_config, save_config
 from src.utils.weather import get_weather_data
+from src.config.config_manager import ConfigManager
+from src.database.db_manager import DatabaseManager
+from src.core.weather_manager import WeatherManager
+from src.core.system_monitor import SystemMonitor
+from src.config.settings import CONFIG_FILE, DEFAULT_CONFIG
 
 # Configure logger
 logger = logging.getLogger(__name__)
@@ -210,7 +221,9 @@ def create_settings_tab():
     st.header("Settings")
     
     # Create tabs for different settings
-    settings_tab1, settings_tab2, settings_tab3 = st.tabs(["Camera Settings", "Visibility Settings", "System Settings"])
+    settings_tab1, settings_tab2, settings_tab3, settings_tab4 = st.tabs([
+        "Camera Settings", "Visibility Settings", "System Settings", "Performance Settings"
+    ])
     
     with settings_tab1:
         st.subheader("Camera Configuration")
@@ -403,4 +416,13 @@ def create_settings_tab():
             if st.button("Save Advanced Settings"):
                 st.session_state.config["debug"] = debug_mode
                 save_config(st.session_state.config)
-                st.success("Advanced settings saved") 
+                st.success("Advanced settings saved")
+    
+    with settings_tab4:
+        # Add performance settings
+        from src.ui.components import UIComponents
+        performance_settings = UIComponents._create_performance_settings_section()
+        
+        # Display the returned settings (for debugging/verification)
+        if st.checkbox("Show applied settings", value=False):
+            st.json(performance_settings) 

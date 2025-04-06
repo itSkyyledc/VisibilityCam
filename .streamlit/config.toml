@@ -1,11 +1,17 @@
 [server]
 runOnSave = true
 maxUploadSize = 200
-enableXsrfProtection = false
+enableXsrfProtection = true
+enableCORS = false
+maxMessageSize = 200
+enableWebsocketCompression = true
 
 [theme]
 primaryColor = "#FF4B4B"
 backgroundColor = "#FFFFFF"
 secondaryBackgroundColor = "#F0F2F6"
 textColor = "#262730"
-font = "sans serif" 
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false 

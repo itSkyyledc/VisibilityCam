@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 class CameraManager:
     def __init__(self, camera_id, config):
         """Initialize camera manager with configuration"""
-        self.camera_id = camera_id
+        self.camera_id = str(camera_id)  # Ensure camera_id is a string
         self.config = config
         self.cap = None
         self.out = None
@@ -90,11 +90,22 @@ class CameraManager:
             'alert_message': ''
         }
         
-        # Create camera-specific directories
-        self.recordings_dir = RECORDINGS_DIR / camera_id
-        self.highlights_dir = HIGHLIGHTS_DIR / camera_id
-        self.recordings_dir.mkdir(parents=True, exist_ok=True)
-        self.highlights_dir.mkdir(parents=True, exist_ok=True)
+        # Create camera-specific directories safely
+        try:
+            self.recordings_dir = RECORDINGS_DIR / self.camera_id
+            self.highlights_dir = HIGHLIGHTS_DIR / self.camera_id
+            
+            # Ensure directories exist
+            self.recordings_dir.mkdir(parents=True, exist_ok=True)
+            self.highlights_dir.mkdir(parents=True, exist_ok=True)
+        except Exception as e:
+            # Fallback to local directories if there's an error
+            logger.error(f"Error creating recording directories: {str(e)}")
+            # Create relative directories as fallback
+            self.recordings_dir = Path(f"recordings/{self.camera_id}")
+            self.highlights_dir = Path(f"highlights/{self.camera_id}")
+            self.recordings_dir.mkdir(parents=True, exist_ok=True)
+            self.highlights_dir.mkdir(parents=True, exist_ok=True)
         
         # Analytics tracking
         self.connection_time = 0
@@ -1018,25 +1029,16 @@ class CameraManager:
         """Get camera ROIs including distance parameter"""
         return self.roi_regions
 
-    def set_roi_regions(self, roi_regions, normalized=False):
-        """Set camera ROIs, ensuring each has a distance parameter"""
-        # Make a deep copy to avoid modifying the input
-        import copy
-        updated_regions = copy.deepcopy(roi_regions)
+    def set_roi_regions(self, roi_regions, normalized=True):
+        """Set ROI regions for analysis
         
-        # Store whether ROI coordinates are normalized
+        Args:
+            roi_regions (list): List of ROI region dictionaries
+            normalized (bool, optional): Whether coordinates are normalized (0-1) or absolute pixels
+        """
+        self.roi_regions = roi_regions
         self.roi_regions_normalized = normalized
-        
-        # Ensure each ROI has a distance parameter
-        for roi in updated_regions:
-            if 'distance' not in roi:
-                roi['distance'] = 100  # Default distance in meters
-        
-        # Update the stored ROIs
-        self.roi_regions = updated_regions
-        
-        logger.info(f"Updated ROI regions for camera {self.camera_id}: {len(updated_regions)} regions")
-        logger.debug(f"ROI regions: {updated_regions}")
+        logger.info(f"Set {len(roi_regions)} ROI regions for camera {self.camera_id}")
         
         return True
 

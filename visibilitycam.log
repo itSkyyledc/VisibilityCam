@@ -1595,3 +1595,694 @@
 2025-04-03 05:41:11,478 - src.utils.analytics - INFO - Updated daily stats for camera V380 Camera
 2025-04-03 05:41:11,493 - src.utils.analytics - INFO - Updated daily stats for camera CTC Rooftop
 2025-04-03 05:41:11,495 - VisibilityCam - INFO - Updated analytics for all cameras
+2025-04-07 04:40:34,374 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 04:41:04,511 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 04:41:04,511 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 04:41:04,512 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 04:42:02,901 - VisibilityCam - INFO - Disconnecting previous camera: CTC Rooftop
+2025-04-07 04:42:02,903 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 04:42:02,904 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 04:42:02,904 - VisibilityCam - INFO - Disconnected previous camera: CTC Rooftop
+2025-04-07 04:42:02,905 - src.core.camera_manager - INFO - Updated ROI regions for camera CTC Rooftop: 2 regions
+2025-04-07 04:42:02,905 - VisibilityCam - INFO - Camera changed to: AIC Camera
+2025-04-07 04:42:02,907 - VisibilityCam - INFO - Preparing to connect to camera: AIC Camera
+2025-04-07 04:42:02,911 - src.config.loader - INFO - Camera configurations saved successfully
+2025-04-07 04:42:02,946 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-07 04:42:33,003 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-07 04:42:33,004 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-07 04:42:33,004 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-07 04:43:14,073 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-07 04:43:44,120 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-07 04:43:44,120 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-07 04:43:44,120 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-07 04:44:44,212 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 04:44:44,222 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 04:44:44,252 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-07 04:44:56,338 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 04:44:56,348 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 04:44:56,374 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-07 04:45:14,270 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-07 04:45:14,271 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-07 04:45:14,272 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-07 04:45:19,885 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 04:45:19,897 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 04:45:19,934 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-07 04:45:44,283 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-07 04:45:44,283 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-07 04:45:44,284 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-07 04:46:07,016 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 04:46:07,027 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 04:46:07,059 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-07 04:46:14,375 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-07 04:46:14,375 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-07 04:46:14,376 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-07 04:46:37,805 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 04:46:37,813 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 04:46:37,847 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-07 04:46:44,440 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-07 04:46:44,441 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-07 04:46:44,442 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-07 04:46:54,066 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 04:46:54,081 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 04:46:54,137 - src.core.camera_manager - INFO - Attempting to connect to camera AIC Camera (attempt 1)
+2025-04-07 04:47:14,487 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-07 04:47:14,487 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-07 04:47:14,488 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-07 04:47:44,491 - src.core.camera_manager - ERROR - Error connecting to camera AIC Camera: Failed to open camera stream
+2025-04-07 04:47:44,491 - src.core.camera_manager - INFO - Disconnecting camera AIC Camera
+2025-04-07 04:47:44,491 - src.core.camera_manager - INFO - Camera AIC Camera disconnected
+2025-04-07 05:03:41,169 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:03:41,176 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:03:41,178 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:03:41,253 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:03:41,265 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:03:41,269 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:03:41,269 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:03:41,370 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:03:41,386 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:03:41,386 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:03:41,386 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:03:44,840 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:04:14,920 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:04:14,920 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:04:14,920 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:04:35,186 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:04:35,202 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:04:35,202 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:04:35,281 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:04:35,322 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:04:35,322 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:04:35,322 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:04:35,345 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:04:35,370 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:04:35,370 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:04:35,370 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:04:38,891 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:04:38,891 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:04:38,907 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:04:38,907 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:04:38,923 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:05:08,959 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:05:08,960 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:05:08,960 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:05:09,310 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:05:09,323 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:05:09,323 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:05:09,326 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:05:09,356 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:05:12,934 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:05:12,944 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:05:12,944 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:05:12,952 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:05:16,012 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:05:16,028 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:05:16,028 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:05:16,028 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:05:16,046 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:05:39,439 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:05:39,439 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:05:39,441 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:06:07,391 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:06:07,404 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:06:07,404 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:06:07,424 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:06:07,441 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:06:07,441 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:06:07,441 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:06:07,443 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:06:07,459 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:06:07,459 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:06:07,459 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:06:07,482 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:06:08,057 - VisibilityCam - ERROR - Error starting application: invalid syntax (components.py, line 370)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 370
+    else:
+    ^^^^
+SyntaxError: invalid syntax
+2025-04-07 05:06:08,058 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:06:08,075 - VisibilityCam - ERROR - Error starting application: invalid syntax (components.py, line 370)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 370
+    else:
+    ^^^^
+SyntaxError: invalid syntax
+2025-04-07 05:06:08,078 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:06:09,495 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:06:09,496 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:06:09,497 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:06:18,565 - VisibilityCam - ERROR - Error starting application: invalid syntax (components.py, line 1)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 1
+    import os                            if os.path.exists(db_manager.db_path):                                os.remove(db_manager.db_path)                                                            # Recreate database schema                            db_manager.setup_database()                                                        st.success("Database has been reset successfully")                            st.info("Please restart the application for changes to take effect")                        except Exception as e:                            st.error(f"Failed to reset database: {str(e)}")                with confirm_cols[2]:                    if st.button("Cancel", key="cancel_reset"):                        st.info("Database reset cancelled")
+                             ^^^^^^
+SyntaxError: invalid syntax
+2025-04-07 05:06:18,567 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:06:19,499 - VisibilityCam - ERROR - Error starting application: invalid syntax (components.py, line 370)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 370
+    else:
+    ^^^^
+SyntaxError: invalid syntax
+2025-04-07 05:06:19,503 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:06:39,507 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:06:39,507 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:06:39,508 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:07:00,474 - VisibilityCam - ERROR - Error starting application: invalid syntax (components.py, line 374)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 374
+    else:
+    ^^^^
+SyntaxError: invalid syntax
+2025-04-07 05:07:00,481 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:07:14,615 - VisibilityCam - ERROR - Error starting application: expected an indented block after 'with' statement on line 2530 (components.py, line 2531)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 2531
+    if st.button("Add as New ROI", use_container_width=True):
+    ^^
+IndentationError: expected an indented block after 'with' statement on line 2530
+2025-04-07 05:07:14,617 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:07:40,544 - VisibilityCam - ERROR - Error starting application: expected an indented block after 'with' statement on line 2577 (components.py, line 2578)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 2578
+    if st.button("Add as New ROI", use_container_width=True):
+    ^^
+IndentationError: expected an indented block after 'with' statement on line 2577
+2025-04-07 05:07:40,544 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:07:46,805 - VisibilityCam - ERROR - Error starting application: expected an indented block after 'with' statement on line 2577 (components.py, line 2578)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 2578
+    if st.button("Add as New ROI", use_container_width=True):
+    ^^
+IndentationError: expected an indented block after 'with' statement on line 2577
+2025-04-07 05:07:46,805 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:08:01,056 - VisibilityCam - ERROR - Error starting application: expected an indented block after 'with' statement on line 2577 (components.py, line 2578)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 2578
+    if st.button("Add as New ROI", use_container_width=True):
+    ^^
+IndentationError: expected an indented block after 'with' statement on line 2577
+2025-04-07 05:08:01,058 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:09:22,337 - VisibilityCam - ERROR - Error starting application: expected an indented block after 'with' statement on line 2577 (components.py, line 2578)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 2578
+    if st.button("Add as New ROI", use_container_width=True):
+    ^^
+IndentationError: expected an indented block after 'with' statement on line 2577
+2025-04-07 05:09:22,337 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:09:58,506 - VisibilityCam - ERROR - Error starting application: expected an indented block after 'with' statement on line 2589 (components.py, line 2590)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 2590
+    if st.button("Add as New ROI", use_container_width=True):
+    ^^
+IndentationError: expected an indented block after 'with' statement on line 2589
+2025-04-07 05:09:58,510 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:10:51,989 - VisibilityCam - ERROR - Error starting application: expected an indented block after 'with' statement on line 836 (components.py, line 837)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 837
+    if st.button("Add as New ROI", use_container_width=True):
+    ^^
+IndentationError: expected an indented block after 'with' statement on line 836
+2025-04-07 05:10:51,989 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:11:10,932 - VisibilityCam - ERROR - Error starting application: expected an indented block after 'with' statement on line 836 (components.py, line 837)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 837
+    if st.button("Add as New ROI", use_container_width=True):
+    ^^
+IndentationError: expected an indented block after 'with' statement on line 836
+2025-04-07 05:11:10,938 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:11:24,680 - VisibilityCam - ERROR - Error starting application: expected an indented block after 'with' statement on line 836 (components.py, line 837)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 837
+    if st.button("Add as New ROI", use_container_width=True):
+    ^^
+IndentationError: expected an indented block after 'with' statement on line 836
+2025-04-07 05:11:24,684 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:11:45,375 - VisibilityCam - ERROR - Error starting application: expected an indented block after 'with' statement on line 836 (components.py, line 837)
+Traceback (most recent call last):
+  File "C:\Users\steve\Documents\VisibilityCam\run.py", line 41, in <module>
+    from src.main import main
+  File "C:\Users\steve\Documents\VisibilityCam\src\main.py", line 23, in <module>
+    from src.ui.components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\__init__.py", line 5, in <module>
+    from .components import UIComponents
+  File "C:\Users\steve\Documents\VisibilityCam\src\ui\components.py", line 837
+    if st.button("Add as New ROI", use_container_width=True):
+    ^^
+IndentationError: expected an indented block after 'with' statement on line 836
+2025-04-07 05:11:45,377 - VisibilityCam - ERROR - Check the log file for details
+2025-04-07 05:13:57,942 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:13:57,955 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:13:57,955 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:13:58,002 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:13:58,035 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:13:58,038 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:13:58,039 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:13:58,042 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:13:58,057 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:13:58,063 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:13:58,063 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:13:58,069 - VisibilityCam - ERROR - Error in main application: type object 'UIComponents' has no attribute '_create_stream_settings_section'
+2025-04-07 05:14:14,967 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:14:14,982 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:14:14,982 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:14:14,992 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:14:15,009 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:14:15,009 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:14:15,009 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:14:15,009 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:14:15,028 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:14:15,029 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:14:15,029 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:14:15,034 - VisibilityCam - ERROR - Error in main application: type object 'UIComponents' has no attribute '_create_stream_settings_section'
+2025-04-07 05:14:36,195 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:14:36,207 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:14:36,207 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:14:36,215 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:14:36,235 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:14:36,236 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:14:36,237 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:14:36,240 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:14:36,254 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:14:36,255 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:14:36,255 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:14:36,257 - VisibilityCam - ERROR - Error in main application: type object 'UIComponents' has no attribute '_create_stream_settings_section'
+2025-04-07 05:19:29,781 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:19:29,789 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:19:29,789 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:19:29,898 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:19:29,915 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:19:29,915 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:19:29,915 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:19:29,989 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:19:30,006 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:19:30,006 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:19:30,006 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:19:33,448 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:19:33,450 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:19:33,450 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:19:33,450 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:19:33,450 - VisibilityCam - ERROR - Error in main application: type object 'UIComponents' has no attribute '_create_stream_settings_section'
+2025-04-07 05:20:27,821 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:20:27,831 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:20:27,832 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:20:27,839 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:20:27,857 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:20:27,857 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:20:27,857 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:20:27,860 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:20:27,872 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:20:27,873 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:20:27,873 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:20:27,881 - VisibilityCam - ERROR - Error in main application: type object 'UIComponents' has no attribute '_create_display_settings_section'
+2025-04-07 05:20:43,690 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:20:43,694 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:20:43,697 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:20:43,697 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:20:46,809 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:20:46,819 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:20:46,823 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:20:46,823 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:20:46,834 - VisibilityCam - ERROR - Error in main application: type object 'UIComponents' has no attribute '_create_display_settings_section'
+2025-04-07 05:21:00,129 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:21:00,137 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:21:00,137 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:21:00,144 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:21:00,156 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:21:00,156 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:21:00,158 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:21:00,162 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:21:00,173 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:21:00,174 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:21:00,174 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:21:00,182 - VisibilityCam - ERROR - Error in main application: type object 'UIComponents' has no attribute '_create_weather_settings_section'
+2025-04-07 05:21:22,016 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:21:22,027 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:21:22,027 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:21:22,038 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:21:22,058 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:21:22,058 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:21:22,059 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:21:22,061 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:21:22,071 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:21:22,072 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:21:22,072 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:21:22,091 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:21:52,135 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:21:52,135 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:21:52,136 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:21:52,136 - VisibilityCam - WARNING - Failed to connect to camera CTC Rooftop
+2025-04-07 05:21:52,138 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-07 05:21:52,356 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-07 05:21:52,356 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-07 05:21:52,372 - VisibilityCam - ERROR - Error in main application: st.session_state has no attribute "roi_preview_frame". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2025-04-07 05:21:53,040 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:21:53,052 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:21:53,052 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:21:53,060 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:21:53,080 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:21:53,081 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:21:53,081 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:21:53,084 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:21:53,098 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:21:53,099 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:21:53,099 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:21:53,118 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:22:23,202 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:22:23,202 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:22:23,203 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:26:46,501 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:26:46,503 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:26:46,503 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:26:46,563 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:26:46,574 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:26:46,576 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:26:46,576 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:26:46,590 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:26:46,602 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:26:46,603 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:26:46,603 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:26:49,919 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:26:49,923 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:26:49,923 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:26:49,927 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:26:49,941 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:27:02,459 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:27:02,463 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:27:02,463 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:27:02,464 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:27:02,480 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:27:05,049 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:27:05,055 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:27:05,057 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:27:05,058 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:27:05,082 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:27:06,640 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:27:06,644 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:27:06,646 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:27:06,646 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:27:06,659 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:27:08,665 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:27:08,670 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:27:08,671 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:27:08,671 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:27:08,702 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:27:20,037 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:27:20,037 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:27:20,037 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:27:50,066 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:27:50,066 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:27:50,068 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:28:20,085 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:28:20,085 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:28:20,086 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:28:50,176 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:28:50,177 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:28:50,177 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:29:20,188 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:29:20,188 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:29:20,189 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:29:20,189 - VisibilityCam - WARNING - Failed to connect to camera CTC Rooftop
+2025-04-07 05:29:20,189 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-07 05:29:20,426 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-07 05:29:20,429 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-07 05:29:20,447 - VisibilityCam - ERROR - Error in main application: st.session_state has no attribute "roi_preview_frame". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2025-04-07 05:31:43,228 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:31:43,240 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:31:43,241 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:31:43,261 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:31:43,285 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:31:43,286 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:31:43,286 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:31:43,289 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:31:43,315 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:31:43,317 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:31:43,318 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:31:43,348 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:32:13,405 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:32:13,405 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:32:13,406 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:32:13,406 - VisibilityCam - WARNING - Failed to connect to camera CTC Rooftop
+2025-04-07 05:32:13,421 - VisibilityCam - ERROR - Error in main application: st.session_state has no attribute "roi_preview_frame". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2025-04-07 05:32:16,102 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:32:16,110 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:32:16,110 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:32:16,120 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:32:16,135 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:32:16,135 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:32:16,136 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:32:16,139 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:32:16,150 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:32:16,151 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:32:16,151 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:32:16,167 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:32:34,741 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:32:34,750 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:32:34,751 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:32:34,758 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:32:34,774 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:32:34,775 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:32:34,775 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:32:34,777 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:32:34,789 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:32:34,790 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:32:34,790 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:32:34,813 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:32:46,277 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:32:46,277 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:32:46,279 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:33:16,328 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:33:16,328 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:33:16,329 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:33:16,330 - VisibilityCam - WARNING - Failed to connect to camera CTC Rooftop
+2025-04-07 05:33:16,374 - VisibilityCam - ERROR - Error in main application: Error opening '02n'
+2025-04-07 05:33:45,658 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:33:45,665 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:33:45,670 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:33:45,671 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:33:48,712 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:33:48,717 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:33:48,718 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:33:48,719 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:33:48,728 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:34:18,761 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:34:18,762 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:34:18,762 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:36:40,127 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:36:40,134 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:36:40,134 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:36:40,181 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:36:40,197 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:36:40,198 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:36:40,199 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:36:40,212 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:36:40,226 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:36:40,226 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:36:40,227 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:36:43,566 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:36:43,571 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:36:43,572 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:36:43,573 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:36:43,593 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:37:13,639 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:37:13,640 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:37:13,640 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:37:13,640 - VisibilityCam - WARNING - Failed to connect to camera CTC Rooftop
+2025-04-07 05:37:13,642 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-07 05:37:13,842 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-07 05:37:13,843 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-07 05:37:13,873 - VisibilityCam - ERROR - Error in main application: 'CameraManager' object has no attribute 'get_name'
+2025-04-07 05:37:36,216 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:37:36,216 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:37:36,232 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:37:36,232 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:37:39,261 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:37:39,261 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:37:39,261 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:37:39,277 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:37:39,290 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:38:09,338 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:38:09,338 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:38:09,340 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:38:09,340 - VisibilityCam - WARNING - Failed to connect to camera CTC Rooftop
+2025-04-07 05:38:09,340 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-07 05:38:09,553 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-07 05:38:09,553 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-07 05:38:09,569 - VisibilityCam - ERROR - Error in main application: 'CameraManager' object has no attribute 'get_name'
+2025-04-07 05:43:05,558 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:43:05,565 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:43:05,566 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:43:05,612 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:43:05,626 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:43:05,627 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:43:05,627 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:43:05,640 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:43:05,653 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:43:05,653 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:43:05,654 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:43:09,001 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:43:09,005 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:43:09,006 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:43:09,006 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:43:09,018 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:43:39,062 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:43:39,062 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:43:39,063 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:43:39,063 - VisibilityCam - WARNING - Failed to connect to camera CTC Rooftop
+2025-04-07 05:43:39,064 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-07 05:43:39,264 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-07 05:43:39,268 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-07 05:43:42,872 - VisibilityCam - ERROR - Error in main application: There are multiple `date_input` elements with the same auto-generated ID. When this element is created, it is assigned an internal ID based on the element type and provided parameters. Multiple elements with the same type and parameters will cause this error.
+
+To fix this error, please pass a unique `key` argument to the `date_input` element.
+2025-04-07 05:46:46,856 - src.utils.analytics - INFO - Dropped existing daily_stats table to fix schema issues
+2025-04-07 05:46:46,862 - src.utils.analytics - INFO - Database initialized successfully
+2025-04-07 05:46:46,863 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:46:46,907 - src.database.db_manager - INFO - Initializing database connection pool
+2025-04-07 05:46:46,919 - src.database.db_manager - INFO - Connection pool initialized with 2 connections
+2025-04-07 05:46:46,920 - src.database.db_manager - INFO - Database setup completed successfully
+2025-04-07 05:46:46,920 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:46:46,932 - src.core.system_monitor - INFO - Initializing SystemMonitor
+2025-04-07 05:46:46,946 - src.core.system_monitor - INFO - Starting SystemMonitor thread
+2025-04-07 05:46:46,947 - src.core.system_monitor - INFO - Monitoring loop started
+2025-04-07 05:46:46,947 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:46:50,280 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:46:50,284 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:46:50,286 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:46:50,286 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:46:50,296 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:47:06,384 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:47:06,387 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:47:06,387 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:47:06,387 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:47:09,438 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:47:09,443 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:47:09,443 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:47:09,443 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:47:09,456 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:47:20,374 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:47:20,374 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:47:20,375 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:47:50,374 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:47:50,374 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:47:50,376 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:47:50,376 - VisibilityCam - WARNING - Failed to connect to camera CTC Rooftop
+2025-04-07 05:47:50,376 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-07 05:47:50,577 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-07 05:47:50,578 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-07 05:50:59,589 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:50:59,592 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:50:59,594 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:50:59,595 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:50:59,605 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:51:23,448 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:51:23,452 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:51:23,452 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:51:23,453 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:51:26,511 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:51:26,516 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:51:26,516 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:51:26,516 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:51:26,530 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:51:29,619 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:51:29,620 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:51:29,621 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:51:59,662 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:51:59,662 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:51:59,663 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected
+2025-04-07 05:51:59,663 - VisibilityCam - WARNING - Failed to connect to camera CTC Rooftop
+2025-04-07 05:51:59,664 - src.core.weather_manager - INFO - Fetching weather data for Manila
+2025-04-07 05:51:59,868 - src.core.weather_manager - INFO - Weather data fetched successfully for Manila, next refresh in 30 minutes
+2025-04-07 05:51:59,870 - VisibilityCam - INFO - Fetched fresh weather data for Manila
+2025-04-07 05:53:09,112 - VisibilityCam - INFO - Starting VisibilityCam...
+2025-04-07 05:53:09,117 - VisibilityCam - INFO - Database manager initialized
+2025-04-07 05:53:09,118 - src.core.system_monitor - WARNING - SystemMonitor is already running
+2025-04-07 05:53:09,119 - VisibilityCam - INFO - System monitor initialized and started
+2025-04-07 05:53:09,136 - src.core.camera_manager - INFO - Attempting to connect to camera CTC Rooftop (attempt 1)
+2025-04-07 05:53:39,195 - src.core.camera_manager - ERROR - Error connecting to camera CTC Rooftop: Failed to open camera stream
+2025-04-07 05:53:39,195 - src.core.camera_manager - INFO - Disconnecting camera CTC Rooftop
+2025-04-07 05:53:39,195 - src.core.camera_manager - INFO - Camera CTC Rooftop disconnected

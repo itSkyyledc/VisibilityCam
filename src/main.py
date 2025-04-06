@@ -68,6 +68,32 @@ def main():
         location = "Manila, Philippines"  # Default location
         st.session_state.weather_manager = WeatherManager(location)
         
+        # Initialize the database manager
+        try:
+            from src.database.db_manager import DatabaseManager
+            st.session_state.db_manager = DatabaseManager()
+            logger.info("Database manager initialized")
+        except ImportError as e:
+            logger.error(f"Failed to import DatabaseManager: {str(e)}")
+            st.session_state.db_manager = None
+        except Exception as e:
+            logger.error(f"Error initializing DatabaseManager: {str(e)}")
+            st.session_state.db_manager = None
+        
+        # Initialize the system monitor
+        try:
+            from src.core.system_monitor import SystemMonitor
+            st.session_state.system_monitor = SystemMonitor()
+            st.session_state.system_monitor.set_camera_managers(st.session_state.camera_managers)
+            st.session_state.system_monitor.start()
+            logger.info("System monitor initialized and started")
+        except ImportError as e:
+            logger.error(f"Failed to import SystemMonitor: {str(e)}")
+            st.session_state.system_monitor = None
+        except Exception as e:
+            logger.error(f"Error initializing SystemMonitor: {str(e)}")
+            st.session_state.system_monitor = None
+        
         # Load configurations
         display_settings = load_display_settings()
         
@@ -77,7 +103,7 @@ def main():
         else:
             # Update with latest configs
             st.session_state.cameras = camera_configs
-        
+            
         # Initialize weather data in session state if not exists
         if 'weather_data' not in st.session_state:
             st.session_state.weather_data = {}
@@ -233,14 +259,33 @@ def main():
         
         # Connect to camera if not already connected
         if not st.session_state.camera_connected and not camera_manager.is_connected():
-            if camera_manager.connect():
-                st.session_state.camera_connected = True
-            else:
-                st.error(f"Failed to connect to camera {st.session_state.selected_camera}")
-                return
+            try:
+                # Attempt to connect, but don't block dashboard loading if it fails
+                if camera_manager.connect():
+                    st.session_state.camera_connected = True
+                else:
+                    logger.warning(f"Failed to connect to camera {st.session_state.selected_camera}")
+                    # Don't return here, continue loading the dashboard
+            except Exception as e:
+                logger.error(f"Error connecting to camera: {str(e)}")
+                # Don't return here, continue loading the dashboard
         
         # Get weather location for current camera
         weather_city = camera_config.get('weather_city', camera_config.get('location', 'Manila'))
+        
+        # Initialize default weather data as fallback
+        default_weather = {
+            'temperature': 'N/A',
+            'humidity': 'N/A',
+            'visibility': 'N/A',
+            'condition': 'Unknown',
+            'wind_speed': 'N/A',
+            'pressure': 'N/A',
+            'icon': None,
+            'sunrise': 'N/A',
+            'sunset': 'N/A',
+            'last_updated': 'N/A'
+        }
         
         # Get weather data with caching to prevent unnecessary API calls
         current_time = time.time()
@@ -248,10 +293,7 @@ def main():
         
         # Check if we need to fetch new weather data
         fetch_new_weather = False
-        if weather_city not in st.session_state.weather_data:
-            # No cached data for this city
-            fetch_new_weather = True
-        elif weather_city not in st.session_state.last_weather_fetch:
+        if weather_city not in st.session_state.last_weather_fetch:
             # No timestamp for last fetch
             fetch_new_weather = True
         else:
@@ -262,17 +304,36 @@ def main():
                 # Time to refresh
                 fetch_new_weather = True
                 logger.info(f"Weather data refresh interval reached for {weather_city}, fetching new data")
-        
+                
+        # Set default weather data as starting point
+        weather_data = default_weather.copy()
+                
         # Fetch new weather data if needed
         if fetch_new_weather:
-            weather_data = st.session_state.weather_manager.get_weather(weather_city)
-            st.session_state.weather_data[weather_city] = weather_data
-            st.session_state.last_weather_fetch[weather_city] = current_time
-            logger.info(f"Fetched fresh weather data for {weather_city}")
+            try:
+                new_weather_data = st.session_state.weather_manager.get_weather(weather_city)
+                if new_weather_data:
+                    weather_data.update(new_weather_data)  # Update with actual values, keeping defaults for missing fields
+                    st.session_state.weather_data[weather_city] = weather_data
+                    st.session_state.last_weather_fetch[weather_city] = current_time
+                    logger.info(f"Fetched fresh weather data for {weather_city}")
+                else:
+                    logger.warning(f"Failed to fetch weather data for {weather_city}")
+                    # Try to use cached data if available
+                    if weather_city in st.session_state.weather_data:
+                        weather_data = st.session_state.weather_data[weather_city]
+            except Exception as e:
+                logger.error(f"Error fetching weather data: {str(e)}")
+                # Try to use cached data if available
+                if weather_city in st.session_state.weather_data:
+                    weather_data = st.session_state.weather_data[weather_city]
         else:
-            # Use cached data
-            weather_data = st.session_state.weather_data[weather_city]
-            logger.debug(f"Using cached weather data for {weather_city}")
+            # Use cached data if available
+            if weather_city in st.session_state.weather_data:
+                weather_data = st.session_state.weather_data[weather_city]
+                logger.debug(f"Using cached weather data for {weather_city}")
+            else:
+                logger.warning(f"No cached weather data available for {weather_city}")
         
         # Create main content with camera feed container
         feed_container = st.empty()

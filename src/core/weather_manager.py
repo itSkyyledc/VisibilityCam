@@ -3,7 +3,6 @@ import logging
 import time
 from datetime import datetime
 from ..config.settings import WEATHER_API_KEY_FILE, WEATHER_UPDATE_INTERVAL
-from ..database.db_manager import DatabaseManager
 
 logger = logging.getLogger(__name__)
 
@@ -34,9 +33,18 @@ class WeatherManager:
         # Add base_url for weather API
         self.base_url = "http://api.openweathermap.org/data/2.5/weather"
         
-        self.db_manager = DatabaseManager()
+        # Safely initialize DatabaseManager
+        try:
+            from ..database.db_manager import DatabaseManager
+            self.db_manager = DatabaseManager()
+        except (ImportError, ModuleNotFoundError) as e:
+            logger.warning(f"Could not import DatabaseManager: {str(e)}")
+            self.db_manager = None
+        except Exception as e:
+            logger.error(f"Error initializing DatabaseManager: {str(e)}")
+            self.db_manager = None
     
-    def get_weather(self, force_update=False):
+    def get_weather_updated(self, force_update=False):
         """Get weather data, fetching from API if needed"""
         current_time = time.time()
         
@@ -104,9 +112,17 @@ class WeatherManager:
         try:
             if WEATHER_API_KEY_FILE.exists():
                 with open(WEATHER_API_KEY_FILE, 'r') as file:
-                    return file.read().strip()
+                    api_key = file.read().strip()
+                    if not api_key or len(api_key) < 16:
+                        logger.error("Weather API key is invalid or too short. Please check api_key.txt file.")
+                        return None
+                    return api_key
             else:
-                logger.warning("Weather API key file not found")
+                logger.error(f"Weather API key file not found at {WEATHER_API_KEY_FILE}. Please create this file with your OpenWeather API key.")
+                # Try to create the file with a placeholder
+                with open(WEATHER_API_KEY_FILE, 'w') as file:
+                    file.write("YOUR_OPENWEATHER_API_KEY_HERE")
+                logger.info(f"Created placeholder api_key.txt file. Please edit it with your actual OpenWeather API key.")
                 return None
         except Exception as e:
             logger.error(f"Error loading API key: {str(e)}")
@@ -219,6 +235,15 @@ class WeatherManager:
             condition = "Unknown"
             if "weather" in data and len(data["weather"]) > 0:
                 condition = data["weather"][0].get("main", "Unknown")
+            
+            # Handle sunrise and sunset times properly
+            sunrise_timestamp = data.get("sys", {}).get("sunrise", 0)
+            sunset_timestamp = data.get("sys", {}).get("sunset", 0)
+            
+            # Use datetime.fromtimestamp directly from the datetime class
+            from datetime import datetime as dt
+            sunrise_time = dt.fromtimestamp(sunrise_timestamp).strftime("%H:%M") if sunrise_timestamp else "06:00"
+            sunset_time = dt.fromtimestamp(sunset_timestamp).strftime("%H:%M") if sunset_timestamp else "18:00"
                 
             # Create simplified weather data structure
             weather_data = {
@@ -234,9 +259,9 @@ class WeatherManager:
                 "icon": data.get("weather", [{}])[0].get("icon", ""),
                 "city": data.get("name", ""),
                 "country": data.get("sys", {}).get("country", ""),
-                "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                "sunrise": datetime.fromtimestamp(data.get("sys", {}).get("sunrise", 0)).strftime("%H:%M"),
-                "sunset": datetime.fromtimestamp(data.get("sys", {}).get("sunset", 0)).strftime("%H:%M")
+                "timestamp": dt.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "sunrise": sunrise_time,
+                "sunset": sunset_time
             }
             return weather_data
         except Exception as e:

@@ -3,6 +3,7 @@ from pathlib import Path
 import json
 import logging
 from datetime import datetime
+import re
 
 # Base directories
 ROOT_DIR = Path(__file__).parent.parent.parent
@@ -22,6 +23,32 @@ HIGHLIGHTS_DIR.mkdir(exist_ok=True)
 LOG_FILE = LOGS_DIR / "visibility_cam.log"
 LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 LOG_DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
+
+# Add utility function to redact passwords
+def redact_rtsp_url(url):
+    """Redact password from RTSP URL for security"""
+    if not url or not isinstance(url, str):
+        return url
+    
+    # Pattern matches rtsp://username:password@host/path
+    pattern = r'(rtsp://[^:]+:)([^@]+)(@.*)'
+    return re.sub(pattern, r'\1********\3', url)
+
+def get_safe_config(config):
+    """Return a copy of config with passwords redacted"""
+    if not config:
+        return config
+        
+    # Deep copy to avoid modifying original
+    import copy
+    safe_config = copy.deepcopy(config)
+    
+    # Redact all RTSP URLs
+    for camera_id, camera_config in safe_config.items():
+        if 'rtsp_url' in camera_config:
+            camera_config['rtsp_url'] = redact_rtsp_url(camera_config['rtsp_url'])
+    
+    return safe_config
 
 # Camera configuration with ROI support
 DEFAULT_CAMERA_CONFIG = {
